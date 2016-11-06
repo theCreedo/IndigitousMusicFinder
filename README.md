@@ -41,4 +41,10 @@ Take a song and put it through a given algorithm in order to get percentage brea
 	sentence max tone value
 
 11. Run 'sort_data_genre.py' to sort all data so that they are ordered in '/Sorted_Tones/' by the tone value from low to high.
-d
+
+# Links
+Indigitous Hack Project Desc: https://indigitous.org/projects/?filter_challenge=musicfinder
+
+Moodify Project Desc - https://indigitous.org/projects/upliftify/
+
+IBM Tone Analyzer - https://tone-analyzer-demo.mybluemix.net/
