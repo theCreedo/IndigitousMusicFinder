@@ -1,0 +1,6 @@
+ride_pilots
+Anger
+0.66655
+Taking my time on my ride.
+Anger
+0.45255

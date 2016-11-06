@@ -1,0 +1,6 @@
+controlla_drake
+Anger
+0.70375
+When I get, aggressive, tell you to.
+Anger
+0.580082
