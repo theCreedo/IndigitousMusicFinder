@@ -20,11 +20,11 @@ def pickleTopicsForMood(mood):
 		topics = [x for sublist in topics for x in sublist] # flatten list of lists
 		songs_to_topics[fname] = topics
 		print("analyzed", fname, "got", topics)
-	pickle.dump(songs_to_topics, open( "songs_to_topics_" + mood + ".p", "wb"))
+	pickle.dump(songs_to_topics, open( "./songs_to_topics/songs_to_topics_" + mood + ".p", "wb"))
 
 # print songs binned by topic.
 def retrieveSimilarSongs(mood):
-	songs_to_topics = pickle.load(open("songs_to_topics_" + mood + ".p", 'rb'))
+	songs_to_topics = pickle.load(open("./songs_to_topics/songs_to_topics_" + mood + ".p", 'rb'))
 	
 	# corpus is a list of bags of words per song, a matrix representation that gensim understands.
 	corpus = [gdict.doc2bow(song) for song in songs_to_topics.values()]
@@ -58,9 +58,12 @@ def retrieveSimilarSongs(mood):
 	for key, val in binned_songs.items():
 		topic_words = [x[0] for x in sorted(lda.show_topic(key), key=lambda x : x[1])]
 		print("Topic", topic_words)
-		sorted_songs = sorted(val, reverse=True, key=lambda x: x['score'])
+		binned_songs[key] = sorted_songs = sorted(val, reverse=True, key=lambda x: x['score'])
 		for song in sorted_songs:
 			print("\t", song['score'], song['title'], '\n\t\t', song['saying'])
+
+	pickle.dump(binned_songs, open('./topic_groupings/' + mood + '.p', 'wb'))
+	return binned_songs
 
 # pickleTopicsForMood('Anger')
 retrieveSimilarSongs("Anger")

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Moodify</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style type="text/css">
+	.item {
+		height:600px;
+	}
+	.item h1 {
+		color:black;
+	}
+</style>
+</head>
+<body>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  
+  <div class="carousel-inner" role="listbox">
+  	<div class="item active">
+      <img src="{{songs[0][1]}}" alt="">
+      <div class="carousel-caption">
+        <p>{{songs[0][0]}}</p>
+      </div>
+    </div>
+  	{% for lyric in songs[1:] %}
+    <div class="item">
+      <img src="{{lyric[1]}}" alt="">
+      <div class="carousel-caption">
+        <h1>{{lyric[0]}}</h1>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#carousel-example-generic').carousel({
+		interval: 100
+	});
+});
+</script>
+</body>
+</html>
