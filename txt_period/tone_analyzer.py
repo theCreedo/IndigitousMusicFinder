@@ -29,7 +29,6 @@ for fname in os.listdir(basepath + '/song_files_with_period/'):
     path = os.path.join(basepath, fname)
     # Enter if not directory (is file)
     if not os.path.isdir(path):
-        print 'hello'
         # Assert if it's a .txt file
         filewhole = path.split('.')
         filename = filewhole[1][1:]
