@@ -1,0 +1,101 @@
+Topic ['touch', 'sound', 'have', 'person', 'move', 'change', 'stop', 'control', 'act', 'be']
+	 75.0 broccoli_dram 
+		 To know I either ball or I record over the snare and bass
+	 75.0 wishing_dj_drama 
+		 Cause once I fuck you like I wanna fuck you girl, you gon' want to tie up the knot, yeah
+	 74.0 needed_me_rihanna 
+		 Never told you, you could have it
+	 74.0 ain't_my_fault_larsson 
+		 If I get you in trouble now
+	 70.0 vice_lambert 
+		 Another town, where my past can't run me down
+	 66.0 controlla_drake 
+		 When I get, aggressive, tell you to.
+	 59.0 side_to_side_grande 
+		 Cause tonight I'm making deals with the devil
+	 57.0 x_boomin 
+		 Hold up, bitches on me, immigration.
+	 53.0 hymn_for_the_weekend_coldplay 
+		 Put your wings on me, wings on me.
+	 52.0 fake_love_drake 
+		 I came up, you changed up, I caught that whole play
+	 51.0 say_it_flume 
+		 Let me fuck you right back
+	 51.0 ooouuu_ma 
+		 My brother told me fuck em', get that money sis
+	 51.0 lockjaw_montana 
+		 I ain't fuckin with that white shit I'm throwed off Henny
+	 51.0 too_much_sauce_dj_esco 
+		 Young man, young man, young man turned myself right to a boss, yeah
+	 50.0 treat_you_better_mendes 
+		 Tell me why are we wasting time
+	 50.0 at_your_name_wickham 
+		 we shout your name, shout your name.
+	 49.0 everlasting_god_brewster 
+		 and young men will fall in exhaustion,.
+	 46.0 dirty_laundry_underwood 
+		 You shoulda burned it, you shoulda lost it
+	 46.0 stronger_hillsong 
+		 sin is broken, you have saved me.
+	 43.0 man_of_sorrows_hillsong 
+		 the sin of man and wrath of god.
+	 42.0 one_dance_drake 
+		 Tell me, I need to know, where do you wanna go?.
+	 42.0 timmy_turner_desiigner 
+		 To kill everybody walkin'.
+	 38.0 unsteady_ambassadors 
+		 'Cause this house don't feel like home
+	 38.0 this_girl_kungs 
+		 Take my hand, you
+	 37.0 caroline_amine 
+		 Shut up and shut up and
+	 36.0 fade_west 
+		 I just need to know
+	 36.0 a_yo_gaga 
+		 Faster than you can try to hate it
+	 33.0 juju_on_the_beat_hilfigerrr 
+		 Come on, I'm old and I'm trying to learn it
+	 32.0 lord_i_need_you_maher 
+		 holiness is christ in me.
+Topic ['experience', 'understand', 'be', 'letter', 'halogen', 'time_period', 'digit', 'make', 'chemical_element', 'change']
+	 49.0 i_hate_u_i_love_u_gnash 
+		 Lie to me, lie with me, get your fucking fix.
+Topic ['make', 'utter', 'destroy', 'end', 'change', 'be', 'halogen', 'chemical_element', 'digit', 'letter']
+	 57.0 may_we_all_line 
+		 Get a won't-start-hand-me-down Ford to try to fix up.
+	 48.0 closer_chainsmokers 
+		 And I, I, I, I, I can't stop
+	 38.0 middle_of_a_memory_swindell 
+		 I'd get your number and I'd give you mine.
+Topic ['person', 'change', 'request', 'time_period', 'move', 'be', 'chemical_element', 'digit', 'halogen', 'letter']
+	 48.0 why_you_always_hatin_yg 
+		 Ask no questions, just hold it down
+Topic ['score', 'inactivity', 'ennoble', 'ruler', 'pause', 'male_aristocrat', 'increase', 'letter', 'act', 'change']
+	 79.0 24k_magic_mars 
+		 Why you mad? Fix ya face
+	 74.0 panda_desiigner 
+		 We gon' drill the bank, fuck we gon' kill the bank, get it.
+	 71.0 sneakin_drake 
+		 Cause if I don't share the wealth, then how the fuck we supposed to grow.
+	 71.0 all_time_low_bellion 
+		 I (Oh! I, I, I...) I've been trying to fix my pride
+	 71.0 black_beatles_sremmurd 
+		 I'm a fuckin black Beatle, cream seats in the Regal
+	 67.0 money_longer_vert 
+		 Pull up my car automatic, dealt with a star
+	 66.0 ride_pilots 
+		 Taking my time on my ride
+	 61.0 dont_let_me_down_chainsmokers 
+		 Crashing, hit a wall
+	 55.0 1night_lil_yachty 
+		 Ain't no other bitch gon' fuck me like you do I swear
+	 53.0 shout_out_to_my_ex_little_mix 
+		 But I snapped right back, I'm so brand new, baby (I'm so brand new)
+	 47.0 pick_up_the_phone_young_thug_travis_scott 
+		 I'm fucking this cash up, I'm not celibate
+	 39.0 come_and_see_me_partynextdoor 
+		 How hard is it to let you know when I'm coming home
+	 38.0 no_heart_21_savage 
+		 I turn that fucking soft into some hard
+	 36.0 sleep_without_you_young 
+		 Just wide awake waitin' on a goodnight kis.
