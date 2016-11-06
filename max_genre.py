@@ -1,15 +1,6 @@
 import os
 import json
 import math
-from pprint import pprint
-
-def truncate(f, n):
-    '''Truncates/pads a float f to n decimal places without rounding'''
-    s = '{}'.format(f)
-    if 'e' in s or 'E' in s:
-        return '{0:.{1}f}'.format(f, n)
-    i, p, d = s.partition('.')
-    return '.'.join([i, (d+'0'*n)[:n]])
 
 
 mood = {'Anger':0, 'Disgust':1, 'Fear':2, 'Joy':3, 'Sadness':4}

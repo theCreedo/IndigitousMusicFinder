@@ -1,0 +1,11 @@
+the_greatest_sia
+Joy
+44.0
+Anger 38.0
+Disgust 0.0
+Fear 14.0
+Joy 44.0
+Sadness 5.0
+The greatest, the greatest alive.
+Joy
+78.0
