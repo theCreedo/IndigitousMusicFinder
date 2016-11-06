@@ -1,9 +1,8 @@
 # Moodify
 Take a song and put it through a given algorithm in order to get percentage breakdown of moods ex. Angry, Frustrated, Happy, Sad (Find amount of presence - MOodiness). Then possibly provide songs scheduled so that they would be played negative to positive progression.
 
-
 # Steps to use this code repo
-1. Clone repo
+1. Fork/Clone repo
 
 2. First, either create a script or manually put all songs into the '/txt/' folder without the song name or artist. (We made the filename contain name of song and artist)
 
@@ -42,3 +41,4 @@ Take a song and put it through a given algorithm in order to get percentage brea
 	sentence max tone value
 
 11. Run 'sort_data_genre.py' to sort all data so that they are ordered in '/Sorted_Tones/' by the tone value from low to high.
+d
