@@ -1,7 +1,6 @@
 import os
 import json
 
-mood = {'Anger':0, 'Disgust':1, 'Fear':2, 'Joy':3, 'Sadness':4}
 # Create dictionaries for all files
 myAnger = {}
 myDisgust = {}
