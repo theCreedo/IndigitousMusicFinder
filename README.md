@@ -26,12 +26,19 @@ Take a song and put it through a given algorithm in order to get percentage brea
 10. Run 'max_mood_all.py' in '/songs_to_moods/' folder to populate '/All/' folder with all files
 
 	NOTE: Data in '/All/', '/Anger/', '/Joy/', '/Sadness/', '/Fear/', and '/Disgust/' consists of:
+	
 	filename
+	
 	whole max tone
+	
 	whole max tone value
+	
 	percentages of all tones with values for song, max sentence (5 total)
+	
 	max sentence
+	
 	sentence max tone
+	
 	sentence max tone value
 
 11. Run 'sort_data_genre.py' to sort all data so that they are ordered in '/Sorted_Tones/' by the tone value from low to high.
