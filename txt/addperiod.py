@@ -24,7 +24,7 @@ for fname in os.listdir(basepath):
                 # Change Filenames based on basepath
                 failedfile = open('./../corrupted_files/failures/addperiod_errors.txt', 'a')
                 print filename + ': ' + str(errormsg)
-                failedfile.write(filename + ': ' + str(errormsg))
+                failedfile.write(filename + ': ' + str(errormsg) + '\n')
                 failedfile.close()
             finally:
                 outfile.close()

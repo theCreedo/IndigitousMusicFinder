@@ -13,8 +13,6 @@ IBM Tone Analyzer - https://tone-analyzer-demo.mybluemix.net/
 
 - Have songs recommended/scheduled to play either on Spotify, Pandora, etc...
 
-- 
-
 # Steps to use this code repo
 1. Fork/Clone repo
 

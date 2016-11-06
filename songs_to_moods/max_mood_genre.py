@@ -64,7 +64,7 @@ for fname in os.listdir(basepath + '../json/'):
                 # Change Filenames based on basepath
                 failedfile = open('./../corrupted_files/failures/max_mood_genre_errors.txt', 'a')
                 print filename + ': ' + str(errormsg)
-                failedfile.write(filename + ': ' + str(errormsg))
+                failedfile.write(filename + ': ' + str(errormsg) + '\n')
                 failedfile.close()
             # Close outfile in the end
             finally:
