@@ -36,7 +36,7 @@ for fname in os.listdir(basepath + '/All/'):
                         # Add filename and max value to Anger dictionary
                         if count == 3:
                             word = line.split(' ')[1]
-                            myAnger[name] = float(word[:len(word)-1])
+                            myAnger[name] = mfloat(word[:len(word)-1])
                         # Add filename and max value to Disgust dictionary
                         if count == 4:
                             word = line.split(' ')[1]
