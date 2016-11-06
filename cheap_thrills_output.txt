@@ -1,0 +1,100 @@
+
+
+ It's Friday night and it won't be long.
+ Gotta do my hair, put my make-up on.
+ It's Friday night and it won't be long 'til I.
+ 
+Showing how important each topic is for each document
+Topic 0 , which has keywords:  ['digit', 'event', 'cosmetic', 'weekday', 'custom', 'time_unit', 'dark', 'engineering', 'twilight', 'time_period'] 
+With weight of 0.02
+Topic 1 , which has keywords:  ['letter', 'halogen', 'plant_process', 'twilight', 'engineering', 'dark', 'time_unit', 'custom', 'weekday', 'time_period'] 
+With weight of 0.98
+
+
+ Hit the dancefloor.
+ Hit the dancefloor.
+ I got all I need.
+ No I ain't got cash.
+ I ain't got cash.
+ But I got you baby.
+ 
+Showing how important each topic is for each document
+Topic 1 , which has keywords:  ['propel', 'arrive', 'consume', 'injure', 'move', 'halogen', 'digit', 'letter', 'chemical_element', 'touch'] 
+With weight of 0.99
+
+
+ Baby I don't need dollar bills to have fun tonight.
+ (I love cheap thrills!).
+ Baby I don't need dollar bills to have fun tonight.
+ (I love cheap thrills!).
+ I don't need no money.
+ As long as I can feel the beat.
+ I don't need no money.
+ As long as I keep dancing.
+ 
+Showing how important each topic is for each document
+Topic 1 , which has keywords:  ['object', 'look', 'sound', 'diversion', 'stimulate', 'move', 'halogen', 'digit', 'chemical_element', 'letter'] 
+With weight of 1.0
+
+
+ Come on come on, turn the radio on.
+ It's Saturday and it won't be long.
+ Gotta paint my nails, put my high heels on.
+ It's Saturday and it won't be long 'til I.
+ 
+Showing how important each topic is for each document
+Topic 1 , which has keywords:  ['communication_system', 'skeletal_structure', 'end', 'travel', 'hit', 'custom', 'engineering', 'become', 'weekday', 'be'] 
+With weight of 0.99
+
+
+ Hit the dancefloor.
+ Hit the dancefloor.
+ I got all I need.
+ No I ain't got cash.
+ I ain't got cash.
+ But I got you baby.
+ 
+Showing how important each topic is for each document
+Topic 0 , which has keywords:  ['payment', 'murder', 'success', 'affect', 'approach', 'letter', 'halogen', 'digit', 'chemical_element', 'touch'] 
+With weight of 0.99
+
+
+ Baby I don't need dollar bills to have fun tonight.
+ (I love cheap thrills!).
+ Baby I don't need dollar bills to have fun tonight.
+ (I love cheap thrills!).
+ I don't need no money.
+ As long as I can feel the beat.
+ I don't need no money.
+ As long as I keep dancing.
+ 
+Showing how important each topic is for each document
+Topic 0 , which has keywords:  ['saw', 'wit', 'sound', 'diversion', 'stimulate', 'move', 'digit', 'halogen', 'chemical_element', 'letter'] 
+With weight of 1.0
+
+
+ (I love cheap thrills!).
+ (I love cheap thrills!).
+ I don't need no money.
+ As long as I can feel the beat.
+ I don't need no money.
+ As long as I keep dancing.
+ Oh, oh.
+ 
+Showing how important each topic is for each document
+Topic 1 , which has keywords:  ['medium_of_exchange', 'excitation', 'score', 'sound', 'stimulate', 'halogen', 'digit', 'move', 'letter', 'chemical_element'] 
+With weight of 1.0
+
+
+ Baby I don't need dollar bills to have fun tonight.
+ (I love cheap thrills!).
+ Baby I don't need dollar bills to have fun tonight.
+ (I love cheap thrills!).
+ I don't need no money.
+ As long as I can feel the beat.
+ I don't need no money.
+ As long as I keep dancing.
+ 
+Showing how important each topic is for each document
+Topic 1 , which has keywords:  ['saw', 'person', 'sound', 'diversion', 'stimulate', 'move', 'digit', 'halogen', 'chemical_element', 'letter'] 
+With weight of 1.0
