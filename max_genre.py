@@ -16,8 +16,6 @@ for fname in os.listdir(basepath + '/json/'):
         ext = filewhole[-1]
         # Execute if .json file
         if ext == 'json':
-            # Create out .json files to write to
-            outfile = open('./songs_to_moods/' + filename + '.txt', 'w')
             data = ''
             # Loop through all the lines in the file
             with open('./json/' + filename + '.json', 'r') as data_file:
@@ -31,12 +29,15 @@ for fname in os.listdir(basepath + '/json/'):
             max_sentence = ''
             tone_word_sentence = ''
             max_tone_sentence = 0.0
-	        mood_index = mood.get(tone_word_whole)
+            mood_index = mood.get(tone_word_whole)
             for sentences in data['sentences_tone']:
                 if (len(sentences['tone_categories'])>0):
                     if sentences['tone_categories'][0]['tones'][mood_index]['score'] > max_tone_sentence:
                         tone_word_sentence = sentences['tone_categories'][0]['tones'][mood_index]['tone_name']
                         max_tone_sentence = sentences['tone_categories'][0]['tones'][mood_index]['score']
                         max_sentence = sentences['text']
-	        outfile.write(filename + '\n' + tone_word_whole + '\n' + str(max_tone_whole) + '\n' + max_sentence + '\n' + tone_word_sentence + '\n' + str(max_tone_sentence))
-	        outfile.close()
+            # Create out .json files to write to
+            outfile = open('./songs_to_moods/' + tone_word_whole + '/' + filename + '.txt', 'w')
+            outfile.write(filename + '\n' + tone_word_whole + '\n' + str(max_tone_whole) + '\n' + max_sentence + '\n' + tone_word_sentence + '\n' + str(max_tone_sentence))
+            outfile.close()
+
