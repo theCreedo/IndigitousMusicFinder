@@ -3,7 +3,7 @@ import codecs
 import json
 from watson_developer_cloud import ToneAnalyzerV3
 
-tone_analyzer = ToneAnalyzerV3(username='98a2f9b7-e29f-4cd8-a6a0-a53073de93ea', password='bTsfFVjXlVSr', version='2016-05-19')
+tone_analyzer = ToneAnalyzerV3(username='INSERT YOUR USERNAME', password='INSERT YOUR PASSWORD', version='2016-05-19')
 
 
 def tryWatson(data, outfile, numtries):

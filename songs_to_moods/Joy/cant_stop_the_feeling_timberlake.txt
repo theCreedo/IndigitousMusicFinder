@@ -1,0 +1,11 @@
+cant_stop_the_feeling_timberlake
+Joy
+87.0
+Anger 7.0
+Disgust 0.0
+Fear 4.0
+Joy 87.0
+Sadness 3.0
+So just dance, dance, dance.
+Joy
+90.0

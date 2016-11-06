@@ -1,0 +1,11 @@
+handclap_fitz_and_the_tantrums
+Joy
+55.0
+Anger 28.0
+Disgust 0.0
+Fear 1.0
+Joy 55.0
+Sadness 16.0
+I can make your hands clap.
+Joy
+87.0
