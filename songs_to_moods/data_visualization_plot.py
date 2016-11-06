@@ -76,6 +76,7 @@ for fname in os.listdir(basepath + '/All/'):
                 # Plots the text
                 # plt.show()
                 # Saves the file as an image
+                plt.xlim(0,100)
                 if imgcount < 10:
                     plt.savefig('./images/' + filename + '.png')
                 elif imgcount < 100:
