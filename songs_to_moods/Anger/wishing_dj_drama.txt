@@ -1,6 +1,11 @@
 wishing_dj_drama
 Anger
-0.776446
+75.0
+Anger 75.0
+Disgust 4.0
+Fear 2.0
+Joy 4.0
+Sadness 16.0
 Cause once I fuck you like I wanna fuck you girl, you gon' want to tie up the knot, yeah.
 Anger
-0.545955
+55.0

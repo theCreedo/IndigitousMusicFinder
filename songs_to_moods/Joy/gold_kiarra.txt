@@ -1,6 +1,11 @@
 gold_kiarra
 Joy
-0.680674
+67.0
+Anger 3.0
+Disgust 0.0
+Fear 1.0
+Joy 67.0
+Sadness 29.0
 But your brother was a good substitute for you.
 Joy
-0.746668
+75.0

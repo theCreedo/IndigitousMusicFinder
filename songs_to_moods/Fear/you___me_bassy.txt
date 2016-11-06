@@ -1,6 +1,11 @@
 you___me_bassy
 Fear
-0.452192
+42.0
+Anger 16.0
+Disgust 3.0
+Fear 42.0
+Joy 5.0
+Sadness 34.0
 Don't let me stay on your mind.
 Fear
-0.674416
+67.0

@@ -1,6 +1,11 @@
 cheap_thrills_sia
 Joy
-0.882766
+88.0
+Anger 2.0
+Disgust 0.0
+Fear 0.0
+Joy 88.0
+Sadness 9.0
 (I love cheap thrills!).
 Joy
-0.735861
+74.0

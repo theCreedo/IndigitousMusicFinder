@@ -1,6 +1,11 @@
 send_my_love_adele
 Joy
-0.80801
+78.0
+Anger 6.0
+Disgust 0.0
+Fear 13.0
+Joy 78.0
+Sadness 3.0
 If you're ready, if you're ready (send my love to your new lover).
 Joy
-0.857139
+86.0

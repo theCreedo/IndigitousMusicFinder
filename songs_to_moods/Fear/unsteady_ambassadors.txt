@@ -1,6 +1,11 @@
 unsteady_ambassadors
 Fear
-0.430555
+42.0
+Anger 38.0
+Disgust 0.0
+Fear 42.0
+Joy 1.0
+Sadness 19.0
 Don't let go.
 Fear
-0.642499
+64.0

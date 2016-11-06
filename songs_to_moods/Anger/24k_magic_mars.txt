@@ -1,6 +1,11 @@
 24k_magic_mars
 Anger
-0.873615
+79.0
+Anger 79.0
+Disgust 10.0
+Fear 2.0
+Joy 2.0
+Sadness 6.0
 Why you mad? Fix ya face.
 Anger
-0.489469
+49.0

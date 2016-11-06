@@ -1,9 +1,14 @@
 love_can_make_you_happy_mercy
 Joy
-0.971651
+97.0
+Anger 0.0
+Disgust 2.0
+Fear 0.0
+Joy 97.0
+Sadness 1.0
 Love can make you happy..
 Love can make you happy..
 Love can make you happy..
 Love.
 Joy
-0.97251
+97.0

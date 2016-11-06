@@ -1,6 +1,11 @@
 say_it_flume
 Anger
-0.501511
+51.0
+Anger 51.0
+Disgust 2.0
+Fear 11.0
+Joy 15.0
+Sadness 21.0
 Let me fuck you right back.
 Anger
-0.526754
+53.0

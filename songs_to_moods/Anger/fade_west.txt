@@ -1,6 +1,11 @@
 fade_west
 Anger
-0.368932
+36.0
+Anger 36.0
+Disgust 3.0
+Fear 1.0
+Joy 33.0
+Sadness 27.0
 I just need to know.
 Anger
-0.326368
+33.0

@@ -1,6 +1,11 @@
 scars_to_your_beautiful_cara
 Joy
-0.814962
+81.0
+Anger 0.0
+Disgust 0.0
+Fear 9.0
+Joy 81.0
+Sadness 10.0
 No better time for your shine, you're a star.
 Joy
-0.763481
+76.0

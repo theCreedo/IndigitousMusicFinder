@@ -1,6 +1,11 @@
 sha-la-la_green
 Joy
-0.888934
+89.0
+Anger 0.0
+Disgust 0.0
+Fear 0.0
+Joy 89.0
+Sadness 11.0
 Aw, make me happy baby, aw, make me happy baby, let me sing.
 Joy
-0.949479
+95.0

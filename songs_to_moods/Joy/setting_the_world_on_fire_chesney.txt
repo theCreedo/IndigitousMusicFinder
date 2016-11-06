@@ -1,8 +1,13 @@
 setting_the_world_on_fire_chesney
 Joy
-0.545577
+51.0
+Anger 5.0
+Disgust 1.0
+Fear 32.0
+Joy 51.0
+Sadness 12.0
 And you kissed me, and we were....
 
 Up all night and we were feelin' so good.
 Joy
-0.75445
+75.0

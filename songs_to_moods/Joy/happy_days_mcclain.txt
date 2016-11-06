@@ -1,9 +1,14 @@
 happy_days_mcclain
 Joy
-0.939428
+94.0
+Anger 5.0
+Disgust 0.0
+Fear 0.0
+Joy 94.0
+Sadness 1.0
 Sunday, Monday, happy days..
 Tuesday, Wednesday, happy days..
 Thursday, Friday, happy days..
 Saturday, what a day, rockin' all week for you..
 Joy
-0.997966
+100.0

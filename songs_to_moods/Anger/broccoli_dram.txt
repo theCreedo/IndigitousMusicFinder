@@ -1,6 +1,11 @@
 broccoli_dram
 Anger
-0.828866
+75.0
+Anger 75.0
+Disgust 16.0
+Fear 0.0
+Joy 0.0
+Sadness 9.0
 To know I either ball or I record over the snare and bass.
 Anger
-0.45727
+46.0

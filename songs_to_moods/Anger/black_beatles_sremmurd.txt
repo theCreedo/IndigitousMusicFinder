@@ -1,6 +1,11 @@
 black_beatles_sremmurd
 Anger
-0.617772
+66.0
+Anger 66.0
+Disgust 10.0
+Fear 3.0
+Joy 2.0
+Sadness 20.0
 I'm a fuckin black Beatle, cream seats in the Regal.
 Anger
-0.617807
+62.0

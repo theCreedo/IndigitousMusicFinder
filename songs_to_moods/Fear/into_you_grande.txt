@@ -1,6 +1,11 @@
 into_you_grande
 Fear
-0.536173
+55.0
+Anger 16.0
+Disgust 2.0
+Fear 55.0
+Joy 16.0
+Sadness 10.0
 A little dangerous, a little dangerous my, baby.
 Fear
-0.337063
+34.0

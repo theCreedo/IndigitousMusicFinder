@@ -1,6 +1,11 @@
 million_reasons_gaga
 Joy
-0.769249
+77.0
+Anger 10.0
+Disgust 3.0
+Fear 2.0
+Joy 77.0
+Sadness 8.0
 Good one, good one, good one, good one, good one.
 Joy
-0.881352
+88.0

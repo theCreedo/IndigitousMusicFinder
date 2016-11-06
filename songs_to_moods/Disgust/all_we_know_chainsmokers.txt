@@ -1,6 +1,11 @@
 all_we_know_chainsmokers
 Disgust
-0.409908
+36.0
+Anger 29.0
+Disgust 36.0
+Fear 17.0
+Joy 3.0
+Sadness 15.0
 Blow the smoke right through the window".
 Disgust
-0.713915
+71.0

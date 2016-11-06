@@ -1,6 +1,11 @@
 the_happy_organ_cortez
 Joy
-0.625626
+60.0
+Anger 19.0
+Disgust 0.0
+Fear 2.0
+Joy 60.0
+Sadness 19.0
 Your love gives me such a thrill, but your love don't pay my bills.
 Joy
-0.679813
+68.0

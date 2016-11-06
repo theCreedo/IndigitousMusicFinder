@@ -1,6 +1,11 @@
 dont_let_me_down_chainsmokers
 Anger
-0.63074
+61.0
+Anger 61.0
+Disgust 1.0
+Fear 8.0
+Joy 0.0
+Sadness 30.0
 Right now I need a miracle.
 Anger
-0.379564
+38.0

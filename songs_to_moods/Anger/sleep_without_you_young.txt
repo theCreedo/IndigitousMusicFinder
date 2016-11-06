@@ -1,6 +1,11 @@
 sleep_without_you_young
 Anger
-0.360682
+34.0
+Anger 34.0
+Disgust 10.0
+Fear 11.0
+Joy 28.0
+Sadness 17.0
 Wide awake waitin' on a goodnight kiss.
 Anger
-0.244674
+24.0
