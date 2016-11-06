@@ -77,11 +77,11 @@ for fname in os.listdir(basepath + '/All/'):
                 # plt.show()
                 # Saves the file as an image
                 if imgcount < 10:
-                    plt.savefig('./images/00' + str(imgcount) + '_' + filename + '.png')
+                    plt.savefig('./images/' + filename + '.png')
                 elif imgcount < 100:
-                    plt.savefig('./images/0' + str(imgcount) + '_' + filename + '.png')
+                    plt.savefig('./images/' + filename + '.png')
                 else:
-                    plt.savefig('./images/' + str(imgcount) + '_' + filename + '.png')
+                    plt.savefig('./images/' + filename + '.png')
                 plt.clf()
                 imgcount += 1
             except Exception as errormsg:
