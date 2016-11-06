@@ -36,7 +36,7 @@ for fname in os.listdir(basepath + '/All/'):
                         # Add filename and max value to Anger dictionary
                         if count == 3:
                             word = line.split(' ')[1]
-                            myAnger[name] = float(word[:len(word)-1])
+                            myAnger[name] = mfloat(word[:len(word)-1])
                         # Add filename and max value to Disgust dictionary
                         if count == 4:
                             word = line.split(' ')[1]
@@ -58,7 +58,7 @@ for fname in os.listdir(basepath + '/All/'):
                 # Change Filenames based on basepath
                 failedfile = open('./../corrupted_files/failures/sort_data_genre_errors.txt', 'a')
                 print filename + ': ' + str(errormsg)
-                failedfile.write(filename + ': ' + str(errormsg))
+                failedfile.write(filename + ': ' + str(errormsg) + '\n')
                 failedfile.close()
 #Populate anger_low_to_hight.txt file with dictionary files sorted from low to high
 # EDIT FILEPATH BASED ON BASEPATH

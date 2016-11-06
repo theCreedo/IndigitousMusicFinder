@@ -13,8 +13,6 @@ IBM Tone Analyzer - https://tone-analyzer-demo.mybluemix.net/
 
 - Have songs recommended/scheduled to play either on Spotify, Pandora, etc...
 
-- 
-
 # Steps to use this code repo
 1. Fork/Clone repo
 
@@ -67,3 +65,9 @@ IBM Tone Analyzer - https://tone-analyzer-demo.mybluemix.net/
 	sorted tone value
 
 	NOTE: Any errors discovered in working with files will be recorded in '/corrupted_files/failures/' folder associated with the given python file. There may be repeats since errors are appended to the file. Errors will be saved in this format: 'filename.txt: ERRORMSG'
+
+13. Run analyzetopic.py to build and pickle a Gensim vocabulary for all the songs in the dataset.
+
+14. Change the TRAIN_VOCAB flag to 0 so that users of the analyzetopic module (such as cluster_songs_by_mood) will not cause the vocabulary to rebuild (takes a lot of time), but load from the pickle instead.
+
+15. Use cluster_songs_by_mood's two functions to recognize topics from songs and pickle this data, or to cluster songs by their top-ranked topic and print them.
