@@ -2,6 +2,7 @@ import analyzetopic as anato
 from gensim import corpora, models, similarities
 import os
 import pickle
+from collections import defaultdict
 
 gdict = anato.getgdict()
 
@@ -16,41 +17,48 @@ def pickleTopicsForMood(mood):
 		print("analyzed", fname, "got", topics)
 	pickle.dump(songs_to_topics, open( "songs_to_topics_" + mood + ".p", "wb"))
 
-pickleTopicsForMood('Joy')
-
-def retrieveSimilarSongs(mood, query):
+def retrieveSimilarSongs(mood):
 	songs_to_topics = pickle.load(open("songs_to_topics_" + mood + ".p", 'rb'))
-	print(songs_to_topics)
 	
 	# corpus is a list of bags of words per song, a matrix representation that gensim understands.
 	corpus = [gdict.doc2bow(song) for song in songs_to_topics.values()]
+	titles = [title for title in songs_to_topics.keys()]
 	# print(corpus)
 
 	# generate num_topics topics for the entire song corpus
 	lda = models.ldamodel.LdaModel(corpus, id2word=gdict, num_topics=50)
 	corpus_lda = lda[corpus]
 
+	binned_songs = defaultdict(list)
+
 	# in terms of these generated topics, look at the topics most captured
 	# by individual songs.
-	# for idx, song_bow in enumerate(corpus):
-		# print(song_bow)
-		# for topic, weight in enumerate(lda[song_bow]):
-		# 	print(idx, lda.show_topic(topic))
-			
-	# vec_bow = gdict.doc2bow(query.lower().split())
-	# print(vec_bow)
-	# vec_lda = lda[vec_bow]
+	for idx, song_bow in enumerate(corpus):
+		top_topic = sorted(enumerate(lda[song_bow]), reverse=True, key=lambda x: x[1])[0]
+		
+		with open('./songs_to_moods/' + mood + '/' + titles[idx]) as metafile:
+			meta_list = metafile.read().split('\n')
+			meta = {}
+			meta['title'] = meta_list[0]
+			meta['score'] = float(meta_list[2])
+			meta['saying'] = meta_list[8]
 
-	# index = similarities.MatrixSimilarity(corpus_lda)
-	# sims = index[vec_lda]
-	# print(list(enumerate(sims)))
+			binned_songs[top_topic[0]].append(meta)
+
+	# We've grouped songs according to their top-ranked topic.
+	# Now, display the topics and their best-matched songs.
+
+	for key, val in binned_songs.items():
+		print("Topic", lda.show_topic(key))
+		sorted_songs = sorted(val, reverse=True, key=lambda x: x['score'])
+		for song in sorted_songs:
+			print("\t", song['score'], song['title'], '\n\t\t', song['saying'])
 
 # these are known hypernyms... an advanced method could be
 # developed that substantiates the query with its hypernyms etc.
 
-# retrieveSimilarSongs("Joy", "sin compassion")
-
-# retrieveSimilarSongs("Joy", "")
+pickleTopicsForMood('Anger')
+retrieveSimilarSongs("Anger")
 
 
 
