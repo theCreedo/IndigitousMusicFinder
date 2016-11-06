@@ -37,7 +37,6 @@ def clean_text(text):
 		for hypernyms in [ss.hypernyms() for ss in word_ss]:
 			for hypernym in hypernyms:
 				line_hypernyms.append(hypernym.name().split('.')[0])
-	# print(line_hypernyms)
 	return line_hypernyms
 
 
@@ -47,7 +46,7 @@ def clean_text(text):
 def generate_song_lines():
 	songs_lines = []
 	basepath = './'
-	for fname in os.listdir(basepath + './txt_period/'):
+	for fname in os.listdir(basepath + 'txt_period/song_files_with_period/'):
 	    path = os.path.join(basepath, fname)
 	    # Enter if not directory (is file)
 	    if not os.path.isdir(path):
@@ -58,7 +57,7 @@ def generate_song_lines():
 	        # Execute if .txt file
 	        if ext == 'txt':
 	            # Create out .json files to write to
-	            with codecs.open('./txt_period/' + path, 'r', encoding='utf8') as fin:
+	            with codecs.open('./txt_period/song_files_with_period/' + path, 'r', encoding='utf8') as fin:
 	                for line in fin:
 	                	cleaned = clean_text(line[:-1])
 	                	if cleaned:
@@ -70,9 +69,9 @@ def generate_song_lines():
 # numtopics: the number of topics that you want outputted. Currently, this doesn't
 # necessarily mean that a higher number makes your topics more distinct and descriptive.
 # Our dataset is possibly too small for that.
-def make_and_show_lda_model(line, gdict, numtopics):
+def make_and_show_lda_model(song, gdict, numtopics):
 	# represent the corpus in sparse matrix format, bag-of-words
-	corpus = [gdict.doc2bow(line)]
+	corpus = [gdict.doc2bow(stanza) for stanza in song]
 
 	# now we make an LDA object.
 	# in case we have a larger text collection (such as the Brown corpus),
@@ -93,12 +92,13 @@ def make_and_show_lda_model(line, gdict, numtopics):
 			total_topic_words.append(topic_words)
 	return total_topic_words
 
-
-if TRAIN_VOCAB:
-	gdict = gensim.corpora.Dictionary(generate_song_lines())
-	gdict.save('./songs_lines.dict')
-else: # vocabulary has been trained; just load it and use it.
-	gdict = gensim.corpora.Dictionary.load('./songs_lines.dict')
+def getgdict():
+	if TRAIN_VOCAB:
+		gdict = gensim.corpora.Dictionary(generate_song_lines())
+		gdict.save('./songs_lines.dict')
+	else: # vocabulary has been trained; just load it and use it.
+		gdict = gensim.corpora.Dictionary.load('./songs_lines.dict')
+	return gdict
 
 def trainAndPrintTopics(gdict, filepath):
 	# Code that outputs each stanza of the song specified in the text
@@ -122,7 +122,7 @@ def getStanzaTopics(gdict, filepath):
 		stanza = ""
 		for line in inf:
 			if not line or line == '\n':
-				if stanza:
+				if stanza.strip():
 					for topic in make_and_show_lda_model(clean_text(stanza), gdict, 1):
 						topics.append(topic)
 				stanza = ""
@@ -130,5 +130,26 @@ def getStanzaTopics(gdict, filepath):
 				stanza += line + " "
 	return topics
 
+def getSongTopics(gdict, filepath):
+	topics = []
+	try:
+		song = []
+		with open(filepath) as inf:
+			stanza = ""
+			for line in inf:
+				if not line or line == '\n':
+					if stanza.strip():
+						song.append(stanza)
+					stanza = ""
+				else:
+					stanza += line + " "
+		for topic in make_and_show_lda_model( \
+			[clean_text(stanza) for stanza in song], gdict, 10):
+			topics.append(topic)
+	except Exception:
+		return topics
 
+	return topics
+
+gdict = getgdict()
 # trainAndPrintTopics(gdict, "./txt_period/song_files_with_period/mercy_mendes.txt")
