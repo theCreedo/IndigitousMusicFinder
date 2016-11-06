@@ -83,12 +83,15 @@ def make_and_show_lda_model(line, gdict, numtopics):
 
 	# how does our line look: how important is each topic there?
 	print("Showing how important each topic is for each document")
+	total_topic_words = []
 	lda_corpus = lda_obj[corpus]
 	for docindex, doc in enumerate(lda_corpus):
 		for topic, weight in doc:
 			topic_words = [x[0] for x in sorted(lda_obj.show_topic(topic), key=lambda x : x[1])]
-			print( "Topic", topic,", which has keywords: ", topic_words, \
-				"\nWith weight of", round(weight, 2))
+			# print( "Topic", topic,", which has keywords: ", topic_words, \
+			# 	"\nWith weight of", round(weight, 2))
+			total_topic_words.append(topic_words)
+	return total_topic_words
 
 
 if TRAIN_VOCAB:
@@ -106,9 +109,26 @@ def trainAndPrintTopics(gdict, filepath):
 			if not line or line == '\n':
 				if stanza:
 					print("\n\n", stanza)
-					make_and_show_lda_model(clean_text(stanza), gdict, 2)
+					make_and_show_lda_model(clean_text(stanza), gdict, 1)
 				stanza = ""
 			else:
 				stanza += line + " "
 
-# trainAndPrintTopics(gdict, "./txt_period/mercy_mendes.txt")
+def getStanzaTopics(gdict, filepath):
+	# similar to previous function but it returns a list of topics, one per
+	# stanza, instead.
+	topics = []
+	with open(filepath) as inf:
+		stanza = ""
+		for line in inf:
+			if not line or line == '\n':
+				if stanza:
+					for topic in make_and_show_lda_model(clean_text(stanza), gdict, 1):
+						topics.append(topic)
+				stanza = ""
+			else:
+				stanza += line + " "
+	return topics
+
+
+# trainAndPrintTopics(gdict, "./txt_period/song_files_with_period/mercy_mendes.txt")
