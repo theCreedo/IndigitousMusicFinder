@@ -5,36 +5,32 @@ import codecs
 import string
 from nltk.corpus import wordnet as wn
 
+TRAIN_VOCAB = 0
+
 ## Build the initial Gensim dictionary and store it
 
-# clean text by removing stopwords, then return collections of lines.
-# Possibly, since these are song lyrics, we should return collections of groups of trigrams.
+# clean text by removing stopwords
+# obtain synset for each word, and hypernyms for each synonym.
+# return a flat list of hypernyms (not separated by the words
+# in text that they represent).
 def clean_text(text):
-	stopword_filename = "./stopwords.txt"
+
+	# Code to clean up the words
+
+	stopword_filename = "./stopwords.txt" # external file that contains stopwords
+	# much better than what's available in python itself.
 	with open(stopword_filename) as f:
 		stopwords = set(f.read().split())
 	for punct in string.punctuation:
 		stopwords.add(punct)
 	exclude = set(string.punctuation)
 
+	# filter out the stopwords
 	cleaned_text_list = list(filter(lambda x: x not in stopwords, \
 		[''.join(ch for ch in s if ch not in exclude) for s in text.split()]))
 
-	# NOT TRYING TRIGRAMS ANYMORE
-	# if len(cleaned_text_list) < 3:
-	# 	return cleaned_text_list
-	# else:
-	# 	trigram_list = []
-	# 	trigram = cleaned_text_list[:3]
-	# 	for word in cleaned_text_list[3:]:
-	# 		trigram_list.append(trigram)
-	# 		print(trigram)
-	# 		trigram.append(word)
-	# 		trigram = trigram[1:]
-	# 	print()
-	# 	return trigram_list
-	
-	# Hypernym approach
+
+	# Expanding vocabulary: Hypernym approach.
 	line_hypernyms = []
 	for word in cleaned_text_list:
 		word_ss = wn.synsets(word)
@@ -69,18 +65,23 @@ def generate_song_lines():
 	                		songs_lines.append(cleaned)
 	return songs_lines
 
+# line: an array of words
+# gdict: a gensim Dictionary object (your vocabulary)
+# numtopics: the number of topics that you want outputted. Currently, this doesn't
+# necessarily mean that a higher number makes your topics more distinct and descriptive.
+# Our dataset is possibly too small for that.
 def make_and_show_lda_model(line, gdict, numtopics):
 	# represent the corpus in sparse matrix format, bag-of-words
-	# print(line)
 	corpus = [gdict.doc2bow(line)]
+
 	# now we make an LDA object.
 	# in case we have a larger text collection (such as the Brown corpus),
 	# make sure to set "passes" to a reasonably high number in order not to have all topics
-	# come out equal. 20 seems to work.
+	# come out equal.
 	lda_obj = gensim.models.ldamodel.LdaModel( \
 		corpus, id2word=gdict, num_topics=numtopics, passes = 30)
 
-	# how do our line look: how important is each topic there?
+	# how does our line look: how important is each topic there?
 	print("Showing how important each topic is for each document")
 	lda_corpus = lda_obj[corpus]
 	for docindex, doc in enumerate(lda_corpus):
@@ -90,11 +91,15 @@ def make_and_show_lda_model(line, gdict, numtopics):
 				"\nWith weight of", round(weight, 2))
 
 
-# gdict = gensim.corpora.Dictionary(generate_song_lines())
-# gdict.save('./songs_lines.dict')
-gdict = gensim.corpora.Dictionary.load('./songs_lines.dict')
+if TRAIN_VOCAB:
+	gdict = gensim.corpora.Dictionary(generate_song_lines())
+	gdict.save('./songs_lines.dict')
+else: # vocabulary has been trained; just load it and use it.
+	gdict = gensim.corpora.Dictionary.load('./songs_lines.dict')
 
-with open('./txt_period/cheap_thrills_sia.txt') as inf:
+# Code that outputs each stanza of the song specified in the text
+# file followed by a series of topic-describing hypernyms.
+with open('./txt_period/mercy_mendes.txt') as inf:
 	stanza = ""
 	for line in inf:
 		if not line or line == '\n':
