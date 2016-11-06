@@ -40,6 +40,7 @@ def retrieveSimilarSongs(mood):
 			meta_list = metafile.read().split('\n')
 			meta = {}
 			meta['title'] = meta_list[0]
+			# use the score to sort the resulting list by score.
 			meta['score'] = float(meta_list[2])
 			meta['saying'] = meta_list[8]
 
@@ -49,7 +50,8 @@ def retrieveSimilarSongs(mood):
 	# Now, display the topics and their best-matched songs.
 
 	for key, val in binned_songs.items():
-		print("Topic", lda.show_topic(key))
+		topic_words = [x[0] for x in sorted(lda.show_topic(key), key=lambda x : x[1])]
+		print("Topic", topic_words)
 		sorted_songs = sorted(val, reverse=True, key=lambda x: x['score'])
 		for song in sorted_songs:
 			print("\t", song['score'], song['title'], '\n\t\t', song['saying'])
