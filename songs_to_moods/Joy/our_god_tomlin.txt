@@ -1,0 +1,11 @@
+our_god_tomlin
+Joy
+53.0
+Anger 0.0
+Disgust 0.0
+Fear 46.0
+Joy 53.0
+Sadness 1.0
+our god is greater, our god is stronger.
+Joy
+55.0

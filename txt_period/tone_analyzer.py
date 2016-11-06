@@ -17,8 +17,13 @@ def tryWatson(data, outfile, numtries, filename):
         # UNCOMMENT LINE BELOW ONCE YOU HAVE CREATED ACCOUNT WITH USERNAME/PASSWORD
         # outfile.write(json.dumps(response))
         print 'succeeded one request on ' + filename
-    except Exception:
+    except Exception as errormsg:
         print 'Hit error in Watson ' + str(numtries) + ' times\n'
+        # Change Filenames based on basepath
+        failedfile = open('./../corrupted_files/tone_analyzer_errors.txt', 'a')
+        print filename + ': ' + str(errormsg)
+        failedfile.write(filename + ': ' + str(errormsg))
+        failedfile.close()
         if numtries < 3:
             tryWatson(data, outfile, numtries + 1, filename)
     pass

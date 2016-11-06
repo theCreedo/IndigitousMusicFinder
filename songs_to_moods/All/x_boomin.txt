@@ -1,9 +1,9 @@
 x_boomin
 Anger
-58.0
-Anger 58.0
-Disgust 19.0
-Fear 6.0
+57.0
+Anger 57.0
+Disgust 17.0
+Fear 9.0
 Joy 0.0
 Sadness 17.0
 Hold up, bitches on me, immigration.

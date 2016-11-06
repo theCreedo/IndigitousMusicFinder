@@ -3,9 +3,9 @@ Sadness
 49.0
 Anger 41.0
 Disgust 3.0
-Fear 3.0
-Joy 3.0
+Fear 4.0
+Joy 4.0
 Sadness 49.0
-?Sometimes I break down and cry.
+?Sometimes I break down and cry.
 Sadness
 81.0

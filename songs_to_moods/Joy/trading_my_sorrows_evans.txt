@@ -1,0 +1,11 @@
+trading_my_sorrows_evans
+Joy
+57.0
+Anger 6.0
+Disgust 16.0
+Fear 1.0
+Joy 57.0
+Sadness 20.0
+his joy comes with the morning.
+Joy
+93.0

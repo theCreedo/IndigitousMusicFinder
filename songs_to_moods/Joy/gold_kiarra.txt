@@ -6,6 +6,8 @@ Disgust 0.0
 Fear 1.0
 Joy 67.0
 Sadness 29.0
-But your brother was a good substitute for you.
+But your brother was a good substitute for you.
+.
+.
 Joy
-75.0
+74.0

@@ -1,0 +1,11 @@
+starboy_punk
+Joy
+58.0
+Anger 19.0
+Disgust 0.0
+Fear 0.0
+Joy 58.0
+Sadness 23.0
+Made your whole year in a week too, yah.
+Joy
+79.0

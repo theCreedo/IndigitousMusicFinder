@@ -1,11 +1,11 @@
 dont_wanna_know_5
 Joy
-69.0
-Anger 16.0
+67.0
+Anger 17.0
 Disgust 1.0
-Fear 1.0
-Joy 69.0
-Sadness 13.0
-Are you happy now?.
+Fear 0.0
+Joy 67.0
+Sadness 14.0
+Are you happy now?.
 Joy
-89.0
+88.0

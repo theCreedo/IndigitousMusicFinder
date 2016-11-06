@@ -1,11 +1,11 @@
 blue_aint_your_color_urban
 Joy
-73.0
-Anger 11.0
+71.0
+Anger 12.0
 Disgust 1.0
 Fear 1.0
-Joy 73.0
-Sadness 13.0
+Joy 71.0
+Sadness 14.0
 Hadn't had a smile in a little while.
 Joy
 87.0

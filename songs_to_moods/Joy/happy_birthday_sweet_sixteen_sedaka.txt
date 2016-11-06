@@ -7,5 +7,6 @@ Fear 0.0
 Joy 97.0
 Sadness 2.0
 Happy birthday sweet sixteen.
+.
 Joy
 99.0

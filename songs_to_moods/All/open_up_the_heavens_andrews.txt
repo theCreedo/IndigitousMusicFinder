@@ -1,0 +1,11 @@
+open_up_the_heavens_andrews
+Joy
+77.0
+Anger 5.0
+Disgust 5.0
+Fear 6.0
+Joy 77.0
+Sadness 7.0
+you're the reason we're singing.
+Joy
+74.0

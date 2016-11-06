@@ -6,6 +6,6 @@ Disgust 11.0
 Fear 8.0
 Joy 2.0
 Sadness 9.0
-I (Oh! I, I, I...) I've been trying to fix my pride.
+I (Oh! I, I, I...) I've been trying to fix my pride.
 Anger
 40.0

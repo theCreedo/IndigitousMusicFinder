@@ -1,11 +1,11 @@
 this_girl_kungs
 Anger
-36.0
-Anger 36.0
-Disgust 4.0
-Fear 22.0
-Joy 20.0
-Sadness 18.0
-Take my hand, you.
+38.0
+Anger 38.0
+Disgust 5.0
+Fear 24.0
+Joy 17.0
+Sadness 16.0
+Take my hand, you.
 Anger
-59.0
+58.0
