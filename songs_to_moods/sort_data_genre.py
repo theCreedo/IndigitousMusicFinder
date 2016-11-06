@@ -26,6 +26,7 @@ for fname in os.listdir(basepath + '/All/'):
                 data = ''
                 count = 0
                 name = ''
+                tonelist = []
                 # Get all data from file
                 # EDIT FILEPATH BASED ON BASEPATH
                 with open('./All/' + filename + '.txt', 'r') as data_file:
@@ -36,24 +37,29 @@ for fname in os.listdir(basepath + '/All/'):
                         # Add filename and max value to Anger dictionary
                         if count == 3:
                             word = line.split(' ')[1]
-                            myAnger[name] = mfloat(word[:len(word)-1])
+                            tonelist.append([float(word[:len(word)-1])])
                         # Add filename and max value to Disgust dictionary
                         if count == 4:
                             word = line.split(' ')[1]
-                            myDisgust[name] = float(word[:len(word)-1])
+                            tonelist.append([float(word[:len(word)-1])])
                         # Add filename and max value to Fear dictionary
                         if count == 5:
                             word = line.split(' ')[1]
-                            myFear[name] = float(word[:len(word)-1])
+                            tonelist.append([float(word[:len(word)-1])])
                         # Add filename and max value to Joy dictionary
                         if count == 6:
                             word = line.split(' ')[1]
-                            myJoy[name] = float(word[:len(word)-1])
+                            tonelist.append([float(word[:len(word)-1])])
                         # Add filename and max value to Sadness dictionary
                         if count == 7:
                             word = line.split(' ')[1]
-                            mySadness[name] = float(word[:len(word)-1])
+                            tonelist.append([float(word[:len(word)-1])])
                         count +=1
+                myAnger[name] = tonelist
+                myDisgust[name] = tonelist
+                myFear[name] = tonelist
+                myJoy[name] = tonelist
+                mySadness[name] = tonelist
             except Exception as errormsg:
                 # Change Filenames based on basepath
                 failedfile = open('./../corrupted_files/failures/sort_data_genre_errors.txt', 'a')
