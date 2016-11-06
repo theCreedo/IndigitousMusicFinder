@@ -1,0 +1,11 @@
+may_we_all_line
+Anger
+54.0
+Anger 54.0
+Disgust 19.0
+Fear 17.0
+Joy 3.0
+Sadness 6.0
+Get a won't-start-hand-me-down Ford to try to fix up.
+Anger
+37.0

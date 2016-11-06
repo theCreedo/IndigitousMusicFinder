@@ -1,0 +1,11 @@
+heathens_pilots
+Fear
+51.0
+Anger 26.0
+Disgust 18.0
+Fear 51.0
+Joy 0.0
+Sadness 5.0
+Welcome to the room of people.
+Fear
+52.0

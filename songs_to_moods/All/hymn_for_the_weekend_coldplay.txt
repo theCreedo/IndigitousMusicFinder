@@ -1,0 +1,11 @@
+hymn_for_the_weekend_coldplay
+Anger
+53.0
+Anger 53.0
+Disgust 8.0
+Fear 27.0
+Joy 8.0
+Sadness 4.0
+Put your wings on me, wings on me.
+Anger
+32.0
