@@ -15,6 +15,6 @@ def home():
 	# 			song_list.append(lyric_file.read())
 	for key, val in binned_songs.items():
 		for song in val:
-			song_list.append((song['saying'], '../images/' + song['title'] + '.png'))
+			song_list.append((song['saying'], url_for('static', filename=song['title'] + '.png')))
 	return render_template('display_lyrics.html', songs=song_list)
 

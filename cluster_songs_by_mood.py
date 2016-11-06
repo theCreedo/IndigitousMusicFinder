@@ -65,5 +65,5 @@ def retrieveSimilarSongs(mood):
 	pickle.dump(binned_songs, open('./topic_groupings/' + mood + '.p', 'wb'))
 	return binned_songs
 
-# pickleTopicsForMood('Anger')
-retrieveSimilarSongs("Anger")
+pickleTopicsForMood('Joy')
+retrieveSimilarSongs("Joy")
