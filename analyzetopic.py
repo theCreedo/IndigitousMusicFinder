@@ -5,7 +5,7 @@ import codecs
 import string
 from nltk.corpus import wordnet as wn
 
-TRAIN_VOCAB = 0¡
+TRAIN_VOCAB = 0
 
 ## Build the initial Gensim dictionary and store it
 
