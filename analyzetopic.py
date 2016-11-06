@@ -83,12 +83,15 @@ def make_and_show_lda_model(line, gdict, numtopics):
 
 	# how does our line look: how important is each topic there?
 	print("Showing how important each topic is for each document")
+	total_topic_words = []
 	lda_corpus = lda_obj[corpus]
 	for docindex, doc in enumerate(lda_corpus):
 		for topic, weight in doc:
 			topic_words = [x[0] for x in sorted(lda_obj.show_topic(topic), key=lambda x : x[1])]
-			print( "Topic", topic,", which has keywords: ", topic_words, \
-				"\nWith weight of", round(weight, 2))
+			# print( "Topic", topic,", which has keywords: ", topic_words, \
+			# 	"\nWith weight of", round(weight, 2))
+			total_topic_words.append(topic_words)
+	return total_topic_words
 
 
 if TRAIN_VOCAB:
@@ -97,21 +100,35 @@ if TRAIN_VOCAB:
 else: # vocabulary has been trained; just load it and use it.
 	gdict = gensim.corpora.Dictionary.load('./songs_lines.dict')
 
-# Code that outputs each stanza of the song specified in the text
-# file followed by a series of topic-describing hypernyms.
-with open('./txt_period/mercy_mendes.txt') as inf:
-	stanza = ""
-	for line in inf:
-		if not line or line == '\n':
-			if stanza:
-				print("\n\n", stanza)
-				make_and_show_lda_model(clean_text(stanza), gdict, 2)
-			stanza = ""
-		else:
-			stanza += line + " "
+def trainAndPrintTopics(gdict, filepath):
+	# Code that outputs each stanza of the song specified in the text
+	# file followed by a series of topic-describing hypernyms.
+	with open(filepath) as inf:
+		stanza = ""
+		for line in inf:
+			if not line or line == '\n':
+				if stanza:
+					print("\n\n", stanza)
+					make_and_show_lda_model(clean_text(stanza), gdict, 1)
+				stanza = ""
+			else:
+				stanza += line + " "
+
+def getStanzaTopics(gdict, filepath):
+	# similar to previous function but it returns a list of topics, one per
+	# stanza, instead.
+	topics = []
+	with open(filepath) as inf:
+		stanza = ""
+		for line in inf:
+			if not line or line == '\n':
+				if stanza:
+					for topic in make_and_show_lda_model(clean_text(stanza), gdict, 1):
+						topics.append(topic)
+				stanza = ""
+			else:
+				stanza += line + " "
+	return topics
 
 
-"""
->>> list(swn.senti_synsets('older'))
-[SentiSynset('aged.s.01'), SentiSynset('elder.s.01'), SentiSynset('old.s.04'), SentiSynset('old.a.01'), SentiSynset('old.a.02'), SentiSynset('old.s.03'), SentiSynset('old.s.04'), SentiSynset('erstwhile.s.01'), SentiSynset('honest-to-god.s.01'), SentiSynset('old.s.07'), SentiSynset('previous.s.01')]
-"""
+# trainAndPrintTopics(gdict, "./txt_period/song_files_with_period/mercy_mendes.txt")
