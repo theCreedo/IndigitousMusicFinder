@@ -3,9 +3,9 @@ Joy
 70.0
 Anger 9.0
 Disgust 2.0
-Fear 7.0
+Fear 8.0
 Joy 70.0
 Sadness 12.0
-M-O-V-E, I love it.
+M-O-V-E, I love it.
 Joy
 90.0

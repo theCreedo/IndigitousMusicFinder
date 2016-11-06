@@ -1,11 +1,11 @@
 treat_you_better_mendes
 Anger
-45.0
-Anger 45.0
-Disgust 5.0
+50.0
+Anger 50.0
+Disgust 6.0
 Fear 1.0
-Joy 31.0
-Sadness 18.0
-Tell me why are we wasting time.
+Joy 27.0
+Sadness 16.0
+Tell me why are we wasting time.
 Anger
 51.0

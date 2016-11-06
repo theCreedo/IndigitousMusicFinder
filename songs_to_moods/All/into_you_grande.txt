@@ -1,11 +1,11 @@
 into_you_grande
 Fear
-55.0
+57.0
 Anger 16.0
 Disgust 2.0
-Fear 55.0
-Joy 16.0
+Fear 57.0
+Joy 14.0
 Sadness 10.0
-A little dangerous, a little dangerous my, baby.
+I'm so into you, I can barely breathe.
 Fear
-34.0
+45.0

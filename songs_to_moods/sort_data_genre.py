@@ -21,38 +21,45 @@ for fname in os.listdir(basepath + '/All/'):
         ext = filewhole[-1]
         # Execute if .json file
         if ext == 'txt':
-            # Create out .json files to write to
-            data = ''
-            count = 0
-            name = ''
-            # Get all data from file
-            # EDIT FILEPATH BASED ON BASEPATH
-            with open('./All/' + filename + '.txt', 'r') as data_file:
-                for line in data_file:
-                    # Save name of file
-                    if count == 0:
-                        name = line
-                    # Add filename and max value to Anger dictionary
-                    if count == 3:
-                        word = line.split(' ')[1]
-                        myAnger[name] = float(word[:len(word)-1])
-                    # Add filename and max value to Disgust dictionary
-                    if count == 4:
-                        word = line.split(' ')[1]
-                        myDisgust[name] = float(word[:len(word)-1])
-                    # Add filename and max value to Fear dictionary
-                    if count == 5:
-                        word = line.split(' ')[1]
-                        myFear[name] = float(word[:len(word)-1])
-                    # Add filename and max value to Joy dictionary
-                    if count == 6:
-                        word = line.split(' ')[1]
-                        myJoy[name] = float(word[:len(word)-1])
-                    # Add filename and max value to Sadness dictionary
-                    if count == 7:
-                        word = line.split(' ')[1]
-                        mySadness[name] = float(word[:len(word)-1])
-                    count +=1
+            try:
+                # Create out .json files to write to
+                data = ''
+                count = 0
+                name = ''
+                # Get all data from file
+                # EDIT FILEPATH BASED ON BASEPATH
+                with open('./All/' + filename + '.txt', 'r') as data_file:
+                    for line in data_file:
+                        # Save name of file
+                        if count == 0:
+                            name = line
+                        # Add filename and max value to Anger dictionary
+                        if count == 3:
+                            word = line.split(' ')[1]
+                            myAnger[name] = float(word[:len(word)-1])
+                        # Add filename and max value to Disgust dictionary
+                        if count == 4:
+                            word = line.split(' ')[1]
+                            myDisgust[name] = float(word[:len(word)-1])
+                        # Add filename and max value to Fear dictionary
+                        if count == 5:
+                            word = line.split(' ')[1]
+                            myFear[name] = float(word[:len(word)-1])
+                        # Add filename and max value to Joy dictionary
+                        if count == 6:
+                            word = line.split(' ')[1]
+                            myJoy[name] = float(word[:len(word)-1])
+                        # Add filename and max value to Sadness dictionary
+                        if count == 7:
+                            word = line.split(' ')[1]
+                            mySadness[name] = float(word[:len(word)-1])
+                        count +=1
+            except Exception as errormsg:
+                # Change Filenames based on basepath
+                failedfile = open('./../corrupted_files/failures/sort_data_genre_errors.txt', 'a')
+                print filename + ': ' + str(errormsg)
+                failedfile.write(filename + ': ' + str(errormsg))
+                failedfile.close()
 #Populate anger_low_to_hight.txt file with dictionary files sorted from low to high
 # EDIT FILEPATH BASED ON BASEPATH
 outfile = open('./Sorted_Tones/anger_low_to_high.txt', 'w')

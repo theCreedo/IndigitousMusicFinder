@@ -1,0 +1,11 @@
+it_is_well_bethel
+Fear
+50.0
+Anger 7.0
+Disgust 9.0
+Fear 50.0
+Joy 21.0
+Sadness 13.0
+and this mountain that's in front of me.
+Fear
+49.0

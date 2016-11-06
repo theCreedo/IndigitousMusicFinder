@@ -1,11 +1,11 @@
 caroline_amine
 Anger
-35.0
-Anger 35.0
-Disgust 27.0
-Fear 24.0
-Joy 1.0
+37.0
+Anger 37.0
+Disgust 26.0
+Fear 22.0
+Joy 2.0
 Sadness 13.0
-Shut up and shut up and.
+Shut up and shut up and.
 Anger
 75.0

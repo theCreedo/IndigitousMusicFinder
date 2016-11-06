@@ -6,6 +6,6 @@ Disgust 0.0
 Fear 0.0
 Joy 98.0
 Sadness 1.0
-You made me so very happy.
+You made me so very happy .
 Joy
 97.0

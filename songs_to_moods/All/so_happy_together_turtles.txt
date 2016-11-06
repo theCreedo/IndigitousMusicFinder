@@ -1,7 +1,7 @@
 so_happy_together_turtles
 Joy
 87.0
-Anger 2.0
+Anger 3.0
 Disgust 0.0
 Fear 0.0
 Joy 87.0

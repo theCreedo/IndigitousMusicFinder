@@ -1,0 +1,11 @@
+only_king_forever_worship
+Joy
+67.0
+Anger 1.0
+Disgust 1.0
+Fear 19.0
+Joy 67.0
+Sadness 13.0
+forevermore, you are victorious.
+Joy
+64.0

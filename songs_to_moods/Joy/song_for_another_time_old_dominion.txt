@@ -6,6 +6,6 @@ Disgust 0.0
 Fear 0.0
 Joy 88.0
 Sadness 8.0
-Let's sing Brown Eyed Girl, Sweet Caroline,.
+Let's sing Brown Eyed Girl, Sweet Caroline,.
 Joy
-85.0
+84.0

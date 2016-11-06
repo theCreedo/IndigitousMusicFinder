@@ -12,11 +12,19 @@ for fname in os.listdir(basepath):
         ext = filewhole[-1]
         # Execute if .txt file
         if ext == 'txt':
-            # Create out .txt files to write to folder - Change Filenames based on basepath
-            outfile = open('./../txt_period/song_files_with_period/' + filename + '.txt', 'w')
-            data = ''
-            # Get the whole file and load as json - Change Filenames based on basepath
-            with open(filename + '.txt', 'r') as data_file:
-                for line in data_file:
-                	outfile.write(line[:len(line)-1] + '.\n')
-            outfile.close()
+            try:
+                # Create out .txt files to write to folder - Change Filenames based on basepath
+                outfile = open('./../txt_period/song_files_with_period/' + filename + '.txt', 'w')
+                data = ''
+                # Get the whole file and load as json - Change Filenames based on basepath
+                with open(filename + '.txt', 'r') as data_file:
+                    for line in data_file:
+                    	outfile.write(line[:len(line)-1] + '.\n')
+            except Exception as errormsg:
+                # Change Filenames based on basepath
+                failedfile = open('./../corrupted_files/failures/addperiod_errors.txt', 'a')
+                print filename + ': ' + str(errormsg)
+                failedfile.write(filename + ': ' + str(errormsg))
+                failedfile.close()
+            finally:
+                outfile.close()

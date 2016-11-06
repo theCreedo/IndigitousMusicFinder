@@ -1,0 +1,12 @@
+hosanna_hillsong
+Joy
+82.0
+Anger 1.0
+Disgust 1.0
+Fear 6.0
+Joy 82.0
+Sadness 10.0
+the people sing.
+the people sing.
+Joy
+71.0

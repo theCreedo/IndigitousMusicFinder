@@ -6,6 +6,6 @@ Disgust 1.0
 Fear 1.0
 Joy 3.0
 Sadness 21.0
-If I get you in trouble now.
+If I get you in trouble now.
 Anger
 58.0
