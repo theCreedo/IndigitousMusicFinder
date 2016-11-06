@@ -97,21 +97,18 @@ if TRAIN_VOCAB:
 else: # vocabulary has been trained; just load it and use it.
 	gdict = gensim.corpora.Dictionary.load('./songs_lines.dict')
 
-# Code that outputs each stanza of the song specified in the text
-# file followed by a series of topic-describing hypernyms.
-with open('./txt_period/mercy_mendes.txt') as inf:
-	stanza = ""
-	for line in inf:
-		if not line or line == '\n':
-			if stanza:
-				print("\n\n", stanza)
-				make_and_show_lda_model(clean_text(stanza), gdict, 2)
-			stanza = ""
-		else:
-			stanza += line + " "
+def trainAndPrintTopics(gdict, filepath):
+	# Code that outputs each stanza of the song specified in the text
+	# file followed by a series of topic-describing hypernyms.
+	with open(filepath) as inf:
+		stanza = ""
+		for line in inf:
+			if not line or line == '\n':
+				if stanza:
+					print("\n\n", stanza)
+					make_and_show_lda_model(clean_text(stanza), gdict, 2)
+				stanza = ""
+			else:
+				stanza += line + " "
 
-
-"""
->>> list(swn.senti_synsets('older'))
-[SentiSynset('aged.s.01'), SentiSynset('elder.s.01'), SentiSynset('old.s.04'), SentiSynset('old.a.01'), SentiSynset('old.a.02'), SentiSynset('old.s.03'), SentiSynset('old.s.04'), SentiSynset('erstwhile.s.01'), SentiSynset('honest-to-god.s.01'), SentiSynset('old.s.07'), SentiSynset('previous.s.01')]
-"""
+# trainAndPrintTopics(gdict, "./txt_period/mercy_mendes.txt")
