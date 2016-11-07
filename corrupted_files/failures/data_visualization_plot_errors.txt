@@ -57,3 +57,153 @@ how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe
 how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe2 in position 35: ordinal not in range(128)
 how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe2 in position 35: ordinal not in range(128)
 how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe2 in position 35: ordinal not in range(128)
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: malformed string
+sadness_low_to_high: malformed string
+fear_low_to_high: malformed string
+anger_low_to_high: malformed string
+joy_low_to_high: malformed string
+disgust_low_to_high: malformed string
+sadness_low_to_high: malformed string
+fear_low_to_high: malformed string
+anger_low_to_high: malformed string
+joy_low_to_high: malformed string
+disgust_low_to_high: malformed string
+sadness_low_to_high: malformed string
+fear_low_to_high: malformed string
+anger_low_to_high: malformed string
+joy_low_to_high: malformed string
+disgust_low_to_high: name 'values' is not defined
+sadness_low_to_high: name 'values' is not defined
+fear_low_to_high: name 'values' is not defined
+anger_low_to_high: name 'values' is not defined
+joy_low_to_high: name 'values' is not defined
+disgust_low_to_high: name 'values' is not defined
+sadness_low_to_high: name 'values' is not defined
+fear_low_to_high: name 'values' is not defined
+anger_low_to_high: name 'values' is not defined
+joy_low_to_high: name 'values' is not defined
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: 'builtin_function_or_method' object has no attribute '__getitem__'
+sadness_low_to_high: 'builtin_function_or_method' object has no attribute '__getitem__'
+fear_low_to_high: 'builtin_function_or_method' object has no attribute '__getitem__'
+anger_low_to_high: 'builtin_function_or_method' object has no attribute '__getitem__'
+joy_low_to_high: 'builtin_function_or_method' object has no attribute '__getitem__'
+disgust_low_to_high: 'builtin_function_or_method' object has no attribute '__getitem__'
+sadness_low_to_high: 'builtin_function_or_method' object has no attribute '__getitem__'
+fear_low_to_high: 'builtin_function_or_method' object has no attribute '__getitem__'
+anger_low_to_high: 'builtin_function_or_method' object has no attribute '__getitem__'
+joy_low_to_high: 'builtin_function_or_method' object has no attribute '__getitem__'
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: could not convert string to float: [
+sadness_low_to_high: could not convert string to float: [
+fear_low_to_high: could not convert string to float: [
+anger_low_to_high: could not convert string to float: [
+joy_low_to_high: could not convert string to float: [
+disgust_low_to_high: invalid literal for float(): 0.0]
+sadness_low_to_high: invalid literal for float(): 0.0]
+fear_low_to_high: invalid literal for float(): 0.0]
+anger_low_to_high: invalid literal for float(): 0.0]
+joy_low_to_high: invalid literal for float(): 0.0]
+disgust_low_to_high: name 'strvalu2' is not defined
+sadness_low_to_high: name 'strvalu2' is not defined
+fear_low_to_high: name 'strvalu2' is not defined
+anger_low_to_high: name 'strvalu2' is not defined
+joy_low_to_high: name 'strvalu2' is not defined
+disgust_low_to_high: cannot concatenate 'str' and 'int' objects
+sadness_low_to_high: cannot concatenate 'str' and 'int' objects
+fear_low_to_high: cannot concatenate 'str' and 'int' objects
+anger_low_to_high: cannot concatenate 'str' and 'int' objects
+joy_low_to_high: cannot concatenate 'str' and 'int' objects

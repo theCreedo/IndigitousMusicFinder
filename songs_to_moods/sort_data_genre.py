@@ -34,67 +34,73 @@ for fname in os.listdir(basepath + '/All/'):
                         # Save name of file
                         if count == 0:
                             name = line
-                        # Add filename and max value to Anger dictionary
+                        # Add filename and anger value to tonelist
                         if count == 3:
                             word = line.split(' ')[1]
                             tonelist.append([float(word[:len(word)-1])])
-                        # Add filename and max value to Disgust dictionary
+                        # Add filename and disgust value to tonelist
                         if count == 4:
                             word = line.split(' ')[1]
                             tonelist.append([float(word[:len(word)-1])])
-                        # Add filename and max value to Fear dictionary
+                        # Add filename and fear value to tonelist
                         if count == 5:
                             word = line.split(' ')[1]
                             tonelist.append([float(word[:len(word)-1])])
-                        # Add filename and max value to Joy dictionary
+                        # Add filename and joy value to tonelist
                         if count == 6:
                             word = line.split(' ')[1]
                             tonelist.append([float(word[:len(word)-1])])
-                        # Add filename and max value to Sadness dictionary
+                        # Add filename and sadness value to tonelist
                         if count == 7:
                             word = line.split(' ')[1]
                             tonelist.append([float(word[:len(word)-1])])
                         count +=1
-                myAnger[name] = tonelist
-                myDisgust[name] = tonelist
-                myFear[name] = tonelist
-                myJoy[name] = tonelist
-                mySadness[name] = tonelist
+                if len(tonelist) > 0:
+                    # Save list into Anger dictionary
+                    myAnger[name] = tonelist
+                    # Save list into Disgust dictionary
+                    myDisgust[name] = tonelist
+                    # Save list into Fear dictionary
+                    myFear[name] = tonelist
+                    # Save list into Joy dictionary
+                    myJoy[name] = tonelist
+                    # Save list into Sadness dictionary
+                    mySadness[name] = tonelist
             except Exception as errormsg:
                 # Change Filenames based on basepath
                 failedfile = open('./../corrupted_files/failures/sort_data_genre_errors.txt', 'a')
                 print filename + ': ' + str(errormsg)
                 failedfile.write(filename + ': ' + str(errormsg) + '\n')
                 failedfile.close()
-#Populate anger_low_to_hight.txt file with dictionary files sorted from low to high
+#Populate anger_low_to_high.txt file with dictionary files sorted from low to high with list of percentage values
 # EDIT FILEPATH BASED ON BASEPATH
 outfile = open('./Sorted_Tones/anger_low_to_high.txt', 'w')
 for key, value in sorted(myAnger.iteritems(), key=lambda (k,v): (v,k)):
     outfile.write(key + str(value) + '\n')
 outfile.close()
 
-#Populate disgust_low_to_high.txt file with dictionary files sorted from low to high
+#Populate disgust_low_to_high.txt file with dictionary files sorted from low to high with list of percentage values
 # EDIT FILEPATH BASED ON BASEPATH
 outfile = open('./Sorted_Tones/disgust_low_to_high.txt', 'w')
 for key, value in sorted(myDisgust.iteritems(), key=lambda (k,v): (v,k)):
     outfile.write(key + str(value) + '\n')
 outfile.close()
 
-#Populate fear_low_to_high.txt file with dictionary files sorted from low to high
+#Populate fear_low_to_high.txt file with dictionary files sorted from low to high with list of percentage values
 # EDIT FILEPATH BASED ON BASEPATH
 outfile = open('./Sorted_Tones/fear_low_to_high.txt', 'w')
 for key, value in sorted(myFear.iteritems(), key=lambda (k,v): (v,k)):
     outfile.write(key + str(value) + '\n')
 outfile.close()
 
-#Populate joy_low_to_high.txt file with dictionary files sorted from low to high
+#Populate joy_low_to_high.txt file with dictionary files sorted from low to high with list of percentage values
 # EDIT FILEPATH BASED ON BASEPATH
 outfile = open('./Sorted_Tones/joy_low_to_high.txt', 'w')
 for key, value in sorted(myJoy.iteritems(), key=lambda (k,v): (v,k)):
     outfile.write(key + str(value) + '\n')
 outfile.close()
 
-#Populate sadness_low_to_hight.txt file with dictionary files sorted from low to high
+#Populate sadness_low_to_high.txt file with dictionary files sorted from low to high with list of percentage values
 # EDIT FILEPATH BASED ON BASEPATH
 outfile = open('./Sorted_Tones/sadness_low_to_high.txt', 'w')
 for key, value in sorted(mySadness.iteritems(), key=lambda (k,v): (v,k)):
