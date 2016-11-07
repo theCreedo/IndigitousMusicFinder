@@ -17,6 +17,7 @@
 </head>
 <body>
 
+
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
   <!-- Wrapper for slides -->
@@ -25,7 +26,7 @@
   	<div class="item active">
       <img src="{{songs[0][1]}}" alt="">
       <div class="carousel-caption">
-        <p>{{songs[0][0]}}</p>
+        <h1>{{songs[0][0]}}</h1>
       </div>
     </div>
   	{% for lyric in songs[1:] %}
@@ -45,7 +46,7 @@
 <script type="text/javascript">
 $(document).ready(function() {
 	$('#carousel-example-generic').carousel({
-		interval: 500
+		interval: 1250
 	});
 });
 </script>
