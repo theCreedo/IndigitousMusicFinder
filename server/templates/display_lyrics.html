@@ -12,28 +12,38 @@
 	}
 	.item img {
 		margin: 0 auto;
+		height:40vh;
+		opacity:0.6;
+	}
+	p {
+		color:gray;
+		font-size:14pt;
+	}
+	p.black {
+		color:black;
+	}
+
+	.carousel-caption {
+		position:absolute;
+		top:25%;
 	}
 </style>
 </head>
 <body>
 
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel" data-ride="carousel" data-interval="">
 
   <!-- Wrapper for slides -->
   
   <div class="carousel-inner" role="listbox">
-  	<div class="item active">
-      <img src="{{songs[0][1]}}" alt="">
-      <div class="carousel-caption">
-        <h1>{{songs[0][0]}}</h1>
-      </div>
-    </div>
-  	{% for lyric in songs[1:] %}
+  	{% for lyric in songs %}
     <div class="item">
       <img src="{{lyric[1]}}" alt="">
       <div class="carousel-caption">
-        <h1>{{lyric[0]}}</h1>
+      	{% for line in lyric[0] %}
+        <p>{{line}}</p>
+        {% endfor %}
       </div>
     </div>
     {% endfor %}
@@ -45,6 +55,15 @@
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
+	/* as per carousel requirements, one item needs to have active class
+		in order for carousel to function. */
+	$($('.item')[0]).addClass('active');
+
+	/* formatting */
+	$('.carousel-caption').each(function(caption) {
+		$(this.children[2]).addClass('black');
+	});
+
 	$('#carousel-example-generic').carousel({
 		interval: 1250
 	});
