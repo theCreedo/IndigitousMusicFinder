@@ -1,0 +1,11 @@
+because_he_lives_gaither
+Fear
+50.0
+Anger 2.0
+Disgust 1.0
+Fear 50.0
+Joy 29.0
+Sadness 18.0
+all fear is gone.
+Fear
+98.0

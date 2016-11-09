@@ -1,0 +1,11 @@
+it_doesn't_hurt_like_it_used_to_currington
+Sadness
+49.0
+Anger 41.0
+Disgust 3.0
+Fear 4.0
+Joy 4.0
+Sadness 49.0
+?Sometimes I break down and cry.
+Sadness
+81.0

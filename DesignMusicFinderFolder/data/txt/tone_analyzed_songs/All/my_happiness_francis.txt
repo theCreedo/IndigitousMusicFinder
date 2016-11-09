@@ -1,0 +1,12 @@
+my_happiness_francis
+Joy
+82.0
+Anger 1.0
+Disgust 1.0
+Fear 0.0
+Joy 82.0
+Sadness 16.0
+Just as long as I'm with you, my happiness.
+.
+Joy
+91.0

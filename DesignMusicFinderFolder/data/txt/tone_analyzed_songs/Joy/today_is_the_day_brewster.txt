@@ -1,0 +1,11 @@
+today_is_the_day_brewster
+Joy
+83.0
+Anger 8.0
+Disgust 0.0
+Fear 7.0
+Joy 83.0
+Sadness 2.0
+i will rejoice and be glad in it.
+Joy
+83.0

@@ -1,0 +1,11 @@
+great_are_you_lord_daughters
+Joy
+84.0
+Anger 3.0
+Disgust 1.0
+Fear 3.0
+Joy 84.0
+Sadness 8.0
+you give life, you are love.
+Joy
+83.0

@@ -1,0 +1,11 @@
+so_happy_together_turtles
+Joy
+87.0
+Anger 3.0
+Disgust 0.0
+Fear 0.0
+Joy 87.0
+Sadness 10.0
+We're happy together.
+Joy
+94.0

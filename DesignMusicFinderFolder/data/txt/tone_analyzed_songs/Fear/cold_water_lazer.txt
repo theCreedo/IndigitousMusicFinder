@@ -1,0 +1,11 @@
+cold_water_lazer
+Fear
+51.0
+Anger 40.0
+Disgust 0.0
+Fear 51.0
+Joy 3.0
+Sadness 6.0
+I'm all alone.
+Fear
+64.0

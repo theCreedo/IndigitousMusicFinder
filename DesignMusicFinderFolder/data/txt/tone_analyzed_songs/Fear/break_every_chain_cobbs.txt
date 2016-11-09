@@ -1,0 +1,11 @@
+break_every_chain_cobbs
+Fear
+41.0
+Anger 13.0
+Disgust 14.0
+Fear 41.0
+Joy 5.0
+Sadness 26.0
+there is power in the name of jesus.
+Fear
+55.0

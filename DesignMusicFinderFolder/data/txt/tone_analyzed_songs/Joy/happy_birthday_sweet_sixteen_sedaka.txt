@@ -1,0 +1,12 @@
+happy_birthday_sweet_sixteen_sedaka
+Joy
+97.0
+Anger 0.0
+Disgust 1.0
+Fear 0.0
+Joy 97.0
+Sadness 2.0
+Happy birthday sweet sixteen.
+.
+Joy
+99.0

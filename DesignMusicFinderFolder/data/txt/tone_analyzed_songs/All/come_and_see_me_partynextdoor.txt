@@ -1,0 +1,11 @@
+come_and_see_me_partynextdoor
+Anger
+39.0
+Anger 39.0
+Disgust 33.0
+Fear 13.0
+Joy 0.0
+Sadness 15.0
+How hard is it to let you know when I'm coming home.
+Anger
+42.0

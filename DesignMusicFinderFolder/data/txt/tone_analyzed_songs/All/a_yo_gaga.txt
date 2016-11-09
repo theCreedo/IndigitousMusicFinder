@@ -1,0 +1,11 @@
+a_yo_gaga
+Anger
+36.0
+Anger 36.0
+Disgust 25.0
+Fear 26.0
+Joy 1.0
+Sadness 11.0
+Faster than you can try to hate it.
+Anger
+49.0

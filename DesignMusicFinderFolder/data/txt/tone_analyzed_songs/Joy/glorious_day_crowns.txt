@@ -1,0 +1,11 @@
+glorious_day_crowns
+Joy
+39.0
+Anger 5.0
+Disgust 8.0
+Fear 11.0
+Joy 39.0
+Sadness 38.0
+living, he loved me.
+Joy
+79.0

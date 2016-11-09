@@ -1,0 +1,11 @@
+this_is_amazing_grace_wickham
+Joy
+82.0
+Anger 2.0
+Disgust 0.0
+Fear 8.0
+Joy 82.0
+Sadness 8.0
+shines like the sun in all of its brilliance.
+Joy
+89.0

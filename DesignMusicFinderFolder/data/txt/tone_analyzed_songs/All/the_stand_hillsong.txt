@@ -1,0 +1,11 @@
+the_stand_hillsong
+Fear
+45.0
+Anger 5.0
+Disgust 5.0
+Fear 45.0
+Joy 41.0
+Sadness 4.0
+you stood before my failure.
+Fear
+73.0

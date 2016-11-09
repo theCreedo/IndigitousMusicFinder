@@ -1,0 +1,11 @@
+come_as_you_are_crowder
+Fear
+47.0
+Anger 2.0
+Disgust 15.0
+Fear 47.0
+Joy 8.0
+Sadness 29.0
+earth has no sorrow.
+Fear
+33.0

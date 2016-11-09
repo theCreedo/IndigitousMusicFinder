@@ -1,0 +1,11 @@
+middle_of_a_memory_swindell
+Anger
+38.0
+Anger 38.0
+Disgust 16.0
+Fear 9.0
+Joy 13.0
+Sadness 25.0
+I'd get your number and I'd give you mine.
+Anger
+31.0
