@@ -2,10 +2,10 @@
 Anger
 79.0
 Anger 79.0
-Disgust 11.0
-Fear 3.0
+Disgust 10.0
+Fear 2.0
 Joy 2.0
-Sadness 5.0
-Why you mad? Fix ya face.
+Sadness 6.0
+Why you mad? Fix ya face.
 Anger
 49.0

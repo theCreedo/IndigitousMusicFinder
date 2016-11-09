@@ -1,12 +1,11 @@
 dirty_laundry_underwood
 Anger
-46.0
-Anger 46.0
-Disgust 31.0
-Fear 5.0
+44.0
+Anger 44.0
+Disgust 30.0
+Fear 6.0
 Joy 0.0
-Sadness 18.0
-You shoulda burned it, you shoulda lost it.
-.
+Sadness 20.0
+You shoulda burned it, you shoulda lost it.
 Anger
 31.0

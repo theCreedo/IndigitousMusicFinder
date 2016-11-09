@@ -4,8 +4,8 @@ Anger
 Anger 36.0
 Disgust 3.0
 Fear 1.0
-Joy 32.0
-Sadness 28.0
-I just need to know.
+Joy 33.0
+Sadness 27.0
+I just need to know.
 Anger
-32.0
+33.0

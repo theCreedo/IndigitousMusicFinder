@@ -6,6 +6,6 @@ Disgust 0.0
 Fear 4.0
 Joy 77.0
 Sadness 16.0
-You were so perfect.
+You were so perfect.
 Joy
 80.0

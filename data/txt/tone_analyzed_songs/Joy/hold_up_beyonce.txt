@@ -1,11 +1,11 @@
 hold_up_beyonce
 Joy
-73.0
+74.0
 Anger 5.0
 Disgust 1.0
 Fear 2.0
-Joy 73.0
-Sadness 19.0
-Know that I kept it sexy, and know I kept it fun.
+Joy 74.0
+Sadness 18.0
+Know that I kept it sexy, and know I kept it fun.
 Joy
-71.0
+72.0

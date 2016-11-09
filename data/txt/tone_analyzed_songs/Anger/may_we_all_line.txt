@@ -4,7 +4,7 @@ Anger
 Anger 57.0
 Disgust 19.0
 Fear 13.0
-Joy 4.0
+Joy 5.0
 Sadness 7.0
 Get a won't-start-hand-me-down Ford to try to fix up.
 Anger

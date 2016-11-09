@@ -1,11 +1,11 @@
 pick_up_the_phone_young_thug_travis_scott
 Anger
-47.0
-Anger 47.0
+48.0
+Anger 48.0
 Disgust 3.0
-Fear 6.0
+Fear 5.0
 Joy 35.0
 Sadness 9.0
-I'm fucking this cash up, I'm not celibate.
+I'm fucking this cash up, I'm not celibate.
 Anger
 81.0

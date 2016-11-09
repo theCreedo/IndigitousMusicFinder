@@ -6,7 +6,6 @@ Disgust 0.0
 Fear 2.0
 Joy 80.0
 Sadness 6.0
-Just start loving me (loving me), babe.
-.
+Just start loving me (loving me), babe.
 Joy
 81.0

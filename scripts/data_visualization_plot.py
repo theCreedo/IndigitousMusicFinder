@@ -10,7 +10,7 @@ basepath = './'
 imgcount = 0
 # Processes all files in given path
 # EDIT FILEPATH BASED ON BASEPATH
-for fname in os.listdir(basepath + '/Sorted_Tones/'):
+for fname in os.listdir(basepath + '../data/txt/sorted_by_tone_value_songs/'):
 	path = os.path.join(basepath, fname)
 	# Enter if not directory (is file)
 	if not os.path.isdir(path):
@@ -32,7 +32,7 @@ for fname in os.listdir(basepath + '/Sorted_Tones/'):
 				sadness = 0.0
 				# Get all data from file
 				# EDIT FILEPATH BASED ON BASEPATH
-				with open('./../data/txt/tone_analyzed_songs/' + filename + '.txt', 'r') as data_file:
+				with open('./../data/txt/sorted_by_tone_value_songs/' + filename + '.txt', 'r') as data_file:
 					for line in data_file:
 						# Save name of file
 						if count % 2 == 0:

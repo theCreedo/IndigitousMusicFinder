@@ -6,6 +6,6 @@ Disgust 0.0
 Fear 14.0
 Joy 43.0
 Sadness 6.0
-The greatest, the greatest alive.
+The greatest, the greatest alive.
 Joy
-77.0
+78.0

@@ -3,9 +3,9 @@ Joy
 79.0
 Anger 5.0
 Disgust 0.0
-Fear 12.0
+Fear 13.0
 Joy 79.0
 Sadness 3.0
-If you're ready, if you're ready (send my love to your new lover).
+If you're ready, if you're ready (send my love to your new lover).
 Joy
 86.0

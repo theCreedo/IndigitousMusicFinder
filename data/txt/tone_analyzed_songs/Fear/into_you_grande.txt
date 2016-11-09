@@ -4,7 +4,7 @@ Fear
 Anger 16.0
 Disgust 2.0
 Fear 57.0
-Joy 14.0
+Joy 15.0
 Sadness 10.0
 I'm so into you, I can barely breathe.
 Fear

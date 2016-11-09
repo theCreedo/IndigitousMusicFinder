@@ -1,11 +1,11 @@
 juju_on_the_beat_hilfigerrr
 Anger
-33.0
-Anger 33.0
+32.0
+Anger 32.0
 Disgust 15.0
-Fear 18.0
-Joy 22.0
+Fear 19.0
+Joy 23.0
 Sadness 11.0
-Come on, I'm old and I'm trying to learn it.
+Come on, I'm old and I'm trying to learn it.
 Anger
-28.0
+29.0

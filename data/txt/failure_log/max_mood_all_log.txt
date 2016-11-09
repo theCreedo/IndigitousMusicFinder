@@ -1,0 +1,2 @@
+you_are_my_king_tomlin: 'ascii' codec can't encode character u'\u2019' in position 2: ordinal not in range(128)
+how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe2 in position 19: ordinal not in range(128)

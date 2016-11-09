@@ -1,11 +1,11 @@
 why_you_always_hatin_yg
 Anger
-48.0
-Anger 48.0
+47.0
+Anger 47.0
 Disgust 35.0
-Fear 4.0
+Fear 5.0
 Joy 0.0
 Sadness 13.0
-Ask no questions, just hold it down.
+Ask no questions, just hold it down.
 Anger
 36.0

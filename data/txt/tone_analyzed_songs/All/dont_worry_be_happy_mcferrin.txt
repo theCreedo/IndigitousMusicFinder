@@ -6,7 +6,6 @@ Disgust 0.0
 Fear 0.0
 Joy 87.0
 Sadness 2.0
-Don't worry, be happy, be happy now.
-.
+I'm not worried, I'm happy.
 Joy
-92.0
+95.0

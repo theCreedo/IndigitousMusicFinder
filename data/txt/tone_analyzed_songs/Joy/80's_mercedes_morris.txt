@@ -1,11 +1,11 @@
 80's_mercedes_morris
 Joy
-48.0
-Anger 27.0
+49.0
+Anger 26.0
 Disgust 9.0
 Fear 2.0
-Joy 48.0
+Joy 49.0
 Sadness 14.0
-The suns in the sky, glitter on the seats.
+The suns in the sky, glitter on the seats.
 Joy
 82.0

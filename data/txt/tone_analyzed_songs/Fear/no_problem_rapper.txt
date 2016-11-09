@@ -2,9 +2,9 @@ no_problem_rapper
 Fear
 43.0
 Anger 23.0
-Disgust 9.0
+Disgust 10.0
 Fear 43.0
-Joy 6.0
+Joy 5.0
 Sadness 19.0
 Ooh, watch me come and put the hinges in their hands.
 Fear

@@ -6,6 +6,9 @@ Disgust 1.0
 Fear 0.0
 Joy 98.0
 Sadness 0.0
-Love Can Make You Happy.
+Love can make you happy..
+Love can make you happy..
+Love can make you happy..
+Love.
 Joy
-95.0
+97.0

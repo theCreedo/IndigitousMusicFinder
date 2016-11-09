@@ -6,6 +6,6 @@ Disgust 0.0
 Fear 4.0
 Joy 86.0
 Sadness 3.0
-So just dance, dance, dance.
+So just dance, dance, dance.
 Joy
-89.0
+90.0

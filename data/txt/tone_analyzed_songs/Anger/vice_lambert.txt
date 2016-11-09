@@ -1,11 +1,11 @@
 vice_lambert
 Anger
-70.0
-Anger 70.0
+71.0
+Anger 71.0
 Disgust 3.0
-Fear 10.0
+Fear 11.0
 Joy 1.0
-Sadness 16.0
-Another town, where my past can't run me down.
+Sadness 15.0
+Another town, where my past can't run me down.
 Anger
 35.0

@@ -1,11 +1,11 @@
 one_dance_drake
 Joy
 43.0
-Anger 39.0
+Anger 40.0
 Disgust 0.0
-Fear 16.0
+Fear 15.0
 Joy 43.0
 Sadness 2.0
-Wine it, wine it, very long time.
+Wine it, wine it, very long time.
 Joy
 88.0

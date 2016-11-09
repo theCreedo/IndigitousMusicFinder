@@ -1,10 +1,10 @@
 in_the_name_of_love_garrix
 Joy
-77.0
+78.0
 Anger 5.0
 Disgust 0.0
-Fear 8.0
-Joy 77.0
+Fear 7.0
+Joy 78.0
 Sadness 10.0
 You bring me back to life.
 Joy

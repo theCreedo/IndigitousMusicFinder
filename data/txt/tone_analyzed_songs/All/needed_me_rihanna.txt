@@ -3,11 +3,9 @@ Anger
 74.0
 Anger 74.0
 Disgust 10.0
-Fear 1.0
+Fear 0.0
 Joy 0.0
-Sadness 15.0
-Never told you, you could have it.
-.
-.
+Sadness 16.0
+Never told you, you could have it.
 Anger
-53.0
+54.0
