@@ -89,6 +89,7 @@ IBM Tone Analyzer - https://tone-analyzer-demo.mybluemix.net/
 	│       ├── failure_log
 	│       ├── original_song_lyrics
 	│       ├── original_song_lyrics_with_periods
+	│       ├── refined_song_lyrics
 	│       ├── sorted_by_tone_value_songs
 	│       ├── tone_analyzed_songs
 	│       │   ├── All
@@ -98,10 +99,10 @@ IBM Tone Analyzer - https://tone-analyzer-demo.mybluemix.net/
 	│       │   ├── Joy
 	│       │   └── Sadness
 	│       └── topic_analyzed_songs
-	│           └── songs_to_topics
 	├── example output
 	├── scripts
 	└── server
 	    ├── __pycache__
 	    ├── static
 	    └── templates
+
