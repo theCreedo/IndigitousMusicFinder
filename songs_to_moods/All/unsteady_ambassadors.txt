@@ -1,13 +1,0 @@
-unsteady_ambassadors
-Anger
-38.0
-Anger 38.0
-Disgust 0.0
-Fear 37.0
-Joy 2.0
-Sadness 23.0
-'Cause this house don't feel like home.
-.
-.
-Anger
-37.0

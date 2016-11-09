@@ -1,11 +1,0 @@
-dont_let_me_down_chainsmokers
-Anger
-61.0
-Anger 61.0
-Disgust 1.0
-Fear 9.0
-Joy 0.0
-Sadness 28.0
-Crashing, hit a wall.
-Anger
-45.0

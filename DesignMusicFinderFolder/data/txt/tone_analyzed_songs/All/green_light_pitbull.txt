@@ -1,11 +1,0 @@
-green_light_pitbull
-Joy
-60.0
-Anger 26.0
-Disgust 1.0
-Fear 13.0
-Joy 60.0
-Sadness 0.0
-Red light, green light.
-Joy
-81.0

@@ -1,11 +1,0 @@
-this_is_what_you_came_for_harris
-Fear
-62.0
-Anger 21.0
-Disgust 8.0
-Fear 62.0
-Joy 2.0
-Sadness 7.0
-Lightning strikes every time she moves.
-Fear
-51.0

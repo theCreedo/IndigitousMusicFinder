@@ -1,11 +1,0 @@
-perfect_illusion_gaga
-Joy
-77.0
-Anger 3.0
-Disgust 0.0
-Fear 4.0
-Joy 77.0
-Sadness 16.0
-You were so perfect.
-Joy
-80.0

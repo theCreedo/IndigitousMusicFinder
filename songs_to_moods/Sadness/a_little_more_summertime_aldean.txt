@@ -1,11 +1,0 @@
-a_little_more_summertime_aldean
-Sadness
-41.0
-Anger 11.0
-Disgust 11.0
-Fear 1.0
-Joy 36.0
-Sadness 41.0
-She might have stayed forever and never ever left these arms if only I.
-Sadness
-68.0
