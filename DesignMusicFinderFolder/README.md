@@ -71,3 +71,37 @@ IBM Tone Analyzer - https://tone-analyzer-demo.mybluemix.net/
 14. Change the TRAIN_VOCAB flag to 0 so that users of the analyzetopic module (such as cluster_songs_by_mood) will not cause the vocabulary to rebuild (takes a lot of time), but load from the pickle instead.
 
 15. Use cluster_songs_by_mood's two functions to recognize topics from songs and pickle this data, or to cluster songs by their top-ranked topic and print them.
+
+
+Directory Hiearchy:
+.
+├── data
+│   ├── corrupted_files
+│   ├── images
+│   │   ├── anger
+│   │   ├── disgust
+│   │   ├── fear
+│   │   ├── joy
+│   │   └── sadness
+│   ├── json
+│   ├── topic_groupings
+│   └── txt
+│       ├── failure_log
+│       ├── original_song_lyrics
+│       ├── original_song_lyrics_with_periods
+│       ├── sorted_by_tone_value_songs
+│       ├── tone_analyzed_songs
+│       │   ├── All
+│       │   ├── Anger
+│       │   ├── Disgust
+│       │   ├── Fear
+│       │   ├── Joy
+│       │   └── Sadness
+│       └── topic_analyzed_songs
+│           └── songs_to_topics
+├── example output
+├── scripts
+└── server
+    ├── __pycache__
+    ├── static
+    └── templates
