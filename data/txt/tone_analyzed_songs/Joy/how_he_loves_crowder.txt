@@ -1,0 +1,12 @@
+how_he_loves_crowder
+Joy
+93.0
+Anger 1.0
+Disgust 0.0
+Fear 1.0
+Joy 93.0
+Sadness 4.0
+oh, how he loves..
+yeah, he loves us,.
+Joy
+80.0

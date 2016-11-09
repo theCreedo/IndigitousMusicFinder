@@ -1,0 +1,11 @@
+i_give_you_my_heart_hillsong
+Joy
+79.0
+Anger 3.0
+Disgust 9.0
+Fear 6.0
+Joy 79.0
+Sadness 3.0
+and i will live for you.
+Joy
+69.0

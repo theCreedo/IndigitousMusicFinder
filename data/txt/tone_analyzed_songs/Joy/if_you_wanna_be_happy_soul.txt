@@ -1,0 +1,11 @@
+if_you_wanna_be_happy_soul
+Joy
+90.0
+Anger 5.0
+Disgust 2.0
+Fear 0.0
+Joy 90.0
+Sadness 2.0
+If You Wanna Be Happy.
+Joy
+91.0

@@ -1,0 +1,393 @@
+broken_vessels_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsbroken_vessels_hillsong.txt'
+you_are_my_all_in_all_grant: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsyou_are_my_all_in_all_grant.txt'
+here_i_am_to_worship_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricshere_i_am_to_worship_hillsong.txt'
+hold_up_beyonce: [Errno 2] No such file or directory: './../data/txt/original_song_lyricshold_up_beyonce.txt'
+unstoppable_god_elevation: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsunstoppable_god_elevation.txt'
+wat_u_mean_dae_dae: [Errno 2] No such file or directory: './../data/txt/original_song_lyricswat_u_mean_dae_dae.txt'
+in_the_name_of_love_garrix: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsin_the_name_of_love_garrix.txt'
+all_the_poor_and_powerless_daughters: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsall_the_poor_and_powerless_daughters.txt'
+key_to_the_streets_lucci: [Errno 2] No such file or directory: './../data/txt/original_song_lyricskey_to_the_streets_lucci.txt'
+starving_steinfeld: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsstarving_steinfeld.txt'
+no_problem_rapper: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsno_problem_rapper.txt'
+broccoli_dram: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsbroccoli_dram.txt'
+a_little_more_summertime_aldean: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsa_little_more_summertime_aldean.txt'
+all_we_know_chainsmokers: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsall_we_know_chainsmokers.txt'
+everlasting_god_brewster: [Errno 2] No such file or directory: './../data/txt/original_song_lyricseverlasting_god_brewster.txt'
+this_is_what_you_came_for_harris: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsthis_is_what_you_came_for_harris.txt'
+my_happiness_francis: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsmy_happiness_francis.txt'
+say_you_won't_let_go_arthur: [Errno 2] No such file or directory: "./../data/txt/original_song_lyricssay_you_won't_let_go_arthur.txt"
+luv_lanez: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsluv_lanez.txt'
+happy_birthday_sweet_sixteen_sedaka: [Errno 2] No such file or directory: './../data/txt/original_song_lyricshappy_birthday_sweet_sixteen_sedaka.txt'
+scars_to_your_beautiful_cara: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsscars_to_your_beautiful_cara.txt'
+side_to_side_grande: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsside_to_side_grande.txt'
+holy_spirit_battistelli: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsholy_spirit_battistelli.txt'
+what_they_want_russ: [Errno 2] No such file or directory: './../data/txt/original_song_lyricswhat_they_want_russ.txt'
+indescribable_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsindescribable_tomlin.txt'
+cornerstone_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricscornerstone_hillsong.txt'
+x_boomin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsx_boomin.txt'
+money_longer_vert: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsmoney_longer_vert.txt'
+in_christ_alone_grant: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsin_christ_alone_grant.txt'
+i_hate_u_i_love_u_gnash: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsi_hate_u_i_love_u_gnash.txt'
+before_the_throne_of_god_above_shane: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsbefore_the_throne_of_god_above_shane.txt'
+crzy_kehlani: [Errno 2] No such file or directory: './../data/txt/original_song_lyricscrzy_kehlani.txt'
+oceans_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsoceans_hillsong.txt'
+glory_to_god_forever_fee: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsglory_to_god_forever_fee.txt'
+it_doesn't_hurt_like_it_used_to_currington: [Errno 2] No such file or directory: "./../data/txt/original_song_lyricsit_doesn't_hurt_like_it_used_to_currington.txt"
+all_because_of_jesus_crowns: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsall_because_of_jesus_crowns.txt'
+sha-la-la_green: [Errno 2] No such file or directory: './../data/txt/original_song_lyricssha-la-la_green.txt'
+green_light_pitbull: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsgreen_light_pitbull.txt'
+forever_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsforever_tomlin.txt'
+ain't_my_fault_larsson: [Errno 2] No such file or directory: "./../data/txt/original_song_lyricsain't_my_fault_larsson.txt"
+wanna_be_that_song_eldredge: [Errno 2] No such file or directory: './../data/txt/original_song_lyricswanna_be_that_song_eldredge.txt'
+always_stanfill: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsalways_stanfill.txt'
+jesus_loves_me_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsjesus_loves_me_tomlin.txt'
+song_for_another_time_old_dominion: [Errno 2] No such file or directory: './../data/txt/original_song_lyricssong_for_another_time_old_dominion.txt'
+beautiful_one_camp: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsbeautiful_one_camp.txt'
+closer_chainsmokers: [Errno 2] No such file or directory: './../data/txt/original_song_lyricscloser_chainsmokers.txt'
+mercy_mendes: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsmercy_mendes.txt'
+breathe_barnett: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsbreathe_barnett.txt'
+break_every_chain_cobbs: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsbreak_every_chain_cobbs.txt'
+say_it_flume: [Errno 2] No such file or directory: './../data/txt/original_song_lyricssay_it_flume.txt'
+our_god_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsour_god_tomlin.txt'
+we_fall_down_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricswe_fall_down_tomlin.txt'
+stronger_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsstronger_hillsong.txt'
+your_love_never_fails_culture: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsyour_love_never_fails_culture.txt'
+i_will_follow_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsi_will_follow_tomlin.txt'
+build_your_kingdom_here_collective: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsbuild_your_kingdom_here_collective.txt'
+lockjaw_montana: [Errno 2] No such file or directory: './../data/txt/original_song_lyricslockjaw_montana.txt'
+victory_in_jesus_cottrell: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsvictory_in_jesus_cottrell.txt'
+move_bryan: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsmove_bryan.txt'
+why_you_always_hatin_yg: [Errno 2] No such file or directory: './../data/txt/original_song_lyricswhy_you_always_hatin_yg.txt'
+we_believe_newsboys: [Errno 2] No such file or directory: './../data/txt/original_song_lyricswe_believe_newsboys.txt'
+how_he_loves_crowder: [Errno 2] No such file or directory: './../data/txt/original_song_lyricshow_he_loves_crowder.txt'
+treat_you_better_mendes: [Errno 2] No such file or directory: './../data/txt/original_song_lyricstreat_you_better_mendes.txt'
+overcome_camp: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsovercome_camp.txt'
+your_name_dean: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsyour_name_dean.txt'
+god_of_wonders_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsgod_of_wonders_tomlin.txt'
+good_good_father_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsgood_good_father_tomlin.txt'
+god_is_able_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsgod_is_able_hillsong.txt'
+lay_me_down_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricslay_me_down_tomlin.txt'
+trading_my_sorrows_evans: [Errno 2] No such file or directory: './../data/txt/original_song_lyricstrading_my_sorrows_evans.txt'
+chill_bill_stone: [Errno 2] No such file or directory: './../data/txt/original_song_lyricschill_bill_stone.txt'
+this_town_horan: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsthis_town_horan.txt'
+ride_pilots: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsride_pilots.txt'
+if_you_wanna_be_happy_soul: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsif_you_wanna_be_happy_soul.txt'
+all_eyez_the_game: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsall_eyez_the_game.txt'
+we_dont_talk_anymore_puth: [Errno 2] No such file or directory: './../data/txt/original_song_lyricswe_dont_talk_anymore_puth.txt'
+come_and_see_me_partynextdoor: [Errno 2] No such file or directory: './../data/txt/original_song_lyricscome_and_see_me_partynextdoor.txt'
+love_can_make_you_happy_mercy: [Errno 2] No such file or directory: './../data/txt/original_song_lyricslove_can_make_you_happy_mercy.txt'
+24k_magic_mars: [Errno 2] No such file or directory: './../data/txt/original_song_lyrics24k_magic_mars.txt'
+vice_lambert: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsvice_lambert.txt'
+so_happy_together_turtles: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsso_happy_together_turtles.txt'
+come_now_is_the_time_to_worship_doerksen: [Errno 2] No such file or directory: './../data/txt/original_song_lyricscome_now_is_the_time_to_worship_doerksen.txt'
+because_he_lives_gaither: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsbecause_he_lives_gaither.txt'
+your_grace_is_enough_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsyour_grace_is_enough_tomlin.txt'
+one_thing_remains_culture: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsone_thing_remains_culture.txt'
+how_great_is_our_god_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricshow_great_is_our_god_tomlin.txt'
+come_as_you_are_crowder: [Errno 2] No such file or directory: './../data/txt/original_song_lyricscome_as_you_are_crowder.txt'
+one_dance_drake: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsone_dance_drake.txt'
+sneakin_drake: [Errno 2] No such file or directory: './../data/txt/original_song_lyricssneakin_drake.txt'
+happy_day_hughes: [Errno 2] No such file or directory: './../data/txt/original_song_lyricshappy_day_hughes.txt'
+cold_water_lazer: [Errno 2] No such file or directory: './../data/txt/original_song_lyricscold_water_lazer.txt'
+sing_to_the_king_passion: [Errno 2] No such file or directory: './../data/txt/original_song_lyricssing_to_the_king_passion.txt'
+you_are_good_bethel: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsyou_are_good_bethel.txt'
+jesus_paid_it_all_stanfill: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsjesus_paid_it_all_stanfill.txt'
+christ_is_enough_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricschrist_is_enough_hillsong.txt'
+give_me_faith_elevation: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsgive_me_faith_elevation.txt'
+i_give_you_my_heart_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsi_give_you_my_heart_hillsong.txt'
+needed_me_rihanna: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsneeded_me_rihanna.txt'
+open_the_eyes_of_my_heart_smith: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsopen_the_eyes_of_my_heart_smith.txt'
+set_a_fire_culture: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsset_a_fire_culture.txt'
+a_yo_gaga: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsa_yo_gaga.txt'
+all_time_low_bellion: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsall_time_low_bellion.txt'
+hosanna_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricshosanna_hillsong.txt'
+amazing_grace_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsamazing_grace_tomlin.txt'
+setting_the_world_on_fire_chesney: [Errno 2] No such file or directory: './../data/txt/original_song_lyricssetting_the_world_on_fire_chesney.txt'
+days_of_elijah_mcclurkin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsdays_of_elijah_mcclurkin.txt'
+let_me_love_you_snake: [Errno 2] No such file or directory: './../data/txt/original_song_lyricslet_me_love_you_snake.txt'
+perfect_illusion_gaga: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsperfect_illusion_gaga.txt'
+middle_of_a_memory_swindell: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsmiddle_of_a_memory_swindell.txt'
+handclap_fitz_and_the_tantrums: [Errno 2] No such file or directory: './../data/txt/original_song_lyricshandclap_fitz_and_the_tantrums.txt'
+shout_to_the_lord_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsshout_to_the_lord_hillsong.txt'
+at_the_cross_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsat_the_cross_tomlin.txt'
+ooouuu_ma: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsooouuu_ma.txt'
+timmy_turner_desiigner: [Errno 2] No such file or directory: './../data/txt/original_song_lyricstimmy_turner_desiigner.txt'
+it_is_well_bethel: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsit_is_well_bethel.txt'
+revelation_song_kari jobe: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsrevelation_song_kari jobe.txt'
+dont_let_me_down_chainsmokers: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsdont_let_me_down_chainsmokers.txt'
+goosebumps_scott: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsgoosebumps_scott.txt'
+the_greatest_sia: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsthe_greatest_sia.txt'
+you_are_my_king_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsyou_are_my_king_tomlin.txt'
+the_happy_organ_cortez: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsthe_happy_organ_cortez.txt'
+juju_on_the_beat_hilfigerrr: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsjuju_on_the_beat_hilfigerrr.txt'
+here_for_you_redman: [Errno 2] No such file or directory: './../data/txt/original_song_lyricshere_for_you_redman.txt'
+today_is_the_day_brewster: [Errno 2] No such file or directory: './../data/txt/original_song_lyricstoday_is_the_day_brewster.txt'
+no_limit_usher: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsno_limit_usher.txt'
+glorious_day_crowns: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsglorious_day_crowns.txt'
+ever_be_bethel: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsever_be_bethel.txt'
+cheap_thrills_sia: [Errno 2] No such file or directory: './../data/txt/original_song_lyricscheap_thrills_sia.txt'
+how_great_thou_art_underwood: [Errno 2] No such file or directory: './../data/txt/original_song_lyricshow_great_thou_art_underwood.txt'
+no_longer_slaves_bethel: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsno_longer_slaves_bethel.txt'
+dirty_laundry_underwood: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsdirty_laundry_underwood.txt'
+hymn_for_the_weekend_coldplay: [Errno 2] No such file or directory: './../data/txt/original_song_lyricshymn_for_the_weekend_coldplay.txt'
+dont_worry_be_happy_mcferrin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsdont_worry_be_happy_mcferrin.txt'
+controlla_drake: [Errno 2] No such file or directory: './../data/txt/original_song_lyricscontrolla_drake.txt'
+fresh_eyes_grammer: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsfresh_eyes_grammer.txt'
+cant_stop_the_feeling_timberlake: [Errno 2] No such file or directory: './../data/txt/original_song_lyricscant_stop_the_feeling_timberlake.txt'
+lord_i_lift_your_name_on_high_mercyme: [Errno 2] No such file or directory: './../data/txt/original_song_lyricslord_i_lift_your_name_on_high_mercyme.txt'
+heathens_pilots: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsheathens_pilots.txt'
+holy_is_the_lord_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsholy_is_the_lord_tomlin.txt'
+this_is_amazing_grace_wickham: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsthis_is_amazing_grace_wickham.txt'
+christ_is_risen_maher: [Errno 2] No such file or directory: './../data/txt/original_song_lyricschrist_is_risen_maher.txt'
+great_i_am_dean: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsgreat_i_am_dean.txt'
+you_make_me_brave_bethel: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsyou_make_me_brave_bethel.txt'
+1night_lil_yachty: [Errno 2] No such file or directory: './../data/txt/original_song_lyrics1night_lil_yachty.txt'
+jesus_messiah_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsjesus_messiah_tomlin.txt'
+open_up_the_heavens_andrews: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsopen_up_the_heavens_andrews.txt'
+10,000_reasons_redman: [Errno 2] No such file or directory: './../data/txt/original_song_lyrics10,000_reasons_redman.txt'
+this_girl_kungs: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsthis_girl_kungs.txt'
+happy_days_mcclain: [Errno 2] No such file or directory: './../data/txt/original_song_lyricshappy_days_mcclain.txt'
+the_stand_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsthe_stand_hillsong.txt'
+man_of_sorrows_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsman_of_sorrows_hillsong.txt'
+fake_love_drake: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsfake_love_drake.txt'
+love_on_the_brain_rihanna: [Errno 2] No such file or directory: './../data/txt/original_song_lyricslove_on_the_brain_rihanna.txt'
+you___me_bassy: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsyou___me_bassy.txt'
+the_heart_of_worship_redman: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsthe_heart_of_worship_redman.txt'
+fade_west: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsfade_west.txt'
+the_wonderful_cross_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsthe_wonderful_cross_tomlin.txt'
+blue_aint_your_color_urban: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsblue_aint_your_color_urban.txt'
+wishing_dj_drama: [Errno 2] No such file or directory: './../data/txt/original_song_lyricswishing_dj_drama.txt'
+great_are_you_lord_daughters: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsgreat_are_you_lord_daughters.txt'
+you_never_let_go_redman: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsyou_never_let_go_redman.txt'
+sleep_without_you_young: [Errno 2] No such file or directory: './../data/txt/original_song_lyricssleep_without_you_young.txt'
+lord_i_need_you_maher: [Errno 2] No such file or directory: './../data/txt/original_song_lyricslord_i_need_you_maher.txt'
+how_i'll_always_be_mcgraw: [Errno 2] No such file or directory: "./../data/txt/original_song_lyricshow_i'll_always_be_mcgraw.txt"
+gold_kiarra: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsgold_kiarra.txt'
+may_we_all_line: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsmay_we_all_line.txt'
+only_king_forever_worship: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsonly_king_forever_worship.txt'
+you_made_me_so_very_happy_tears: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsyou_made_me_so_very_happy_tears.txt'
+alive_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsalive_hillsong.txt'
+you_was_right_vert: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsyou_was_right_vert.txt'
+this_i_believe_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsthis_i_believe_hillsong.txt'
+i_know_somebody_locash: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsi_know_somebody_locash.txt'
+too_much_sauce_dj_esco: [Errno 2] No such file or directory: './../data/txt/original_song_lyricstoo_much_sauce_dj_esco.txt'
+how_deep_the_father’s_love_for_us_townend: [Errno 2] No such file or directory: './../data/txt/original_song_lyricshow_deep_the_father\xe2\x80\x99s_love_for_us_townend.txt'
+shout_out_to_my_ex_little_mix: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsshout_out_to_my_ex_little_mix.txt'
+lead_me_to_the_cross_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricslead_me_to_the_cross_hillsong.txt'
+panda_desiigner: [Errno 2] No such file or directory: './../data/txt/original_song_lyricspanda_desiigner.txt'
+great_is_thy_faithfulness_brewster: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsgreat_is_thy_faithfulness_brewster.txt'
+capsize_frenship: [Errno 2] No such file or directory: './../data/txt/original_song_lyricscapsize_frenship.txt'
+no_heart_21_savage: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsno_heart_21_savage.txt'
+send_my_love_adele: [Errno 2] No such file or directory: './../data/txt/original_song_lyricssend_my_love_adele.txt'
+caroline_amine: [Errno 2] No such file or directory: './../data/txt/original_song_lyricscaroline_amine.txt'
+starboy_punk: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsstarboy_punk.txt'
+i_love_you_lord_petra: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsi_love_you_lord_petra.txt'
+better_is_one_day_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsbetter_is_one_day_tomlin.txt'
+unsteady_ambassadors: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsunsteady_ambassadors.txt'
+into_you_grande: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsinto_you_grande.txt'
+80's_mercedes_morris: [Errno 2] No such file or directory: "./../data/txt/original_song_lyrics80's_mercedes_morris.txt"
+million_reasons_gaga: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsmillion_reasons_gaga.txt'
+do_you_mind_dj_khaled: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsdo_you_mind_dj_khaled.txt'
+mighty_to_save_hillsong: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsmighty_to_save_hillsong.txt'
+at_your_name_wickham: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsat_your_name_wickham.txt'
+dont_wanna_know_5: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsdont_wanna_know_5.txt'
+pick_up_the_phone_young_thug_travis_scott: [Errno 2] No such file or directory: './../data/txt/original_song_lyricspick_up_the_phone_young_thug_travis_scott.txt'
+whom_shall_i_fear_tomlin: [Errno 2] No such file or directory: './../data/txt/original_song_lyricswhom_shall_i_fear_tomlin.txt'
+black_beatles_sremmurd: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsblack_beatles_sremmurd.txt'
+your_great_name_grant: [Errno 2] No such file or directory: './../data/txt/original_song_lyricsyour_great_name_grant.txt'
+you_are_my_all_in_all_grant: name 'string' is not defined
+here_i_am_to_worship_hillsong: name 'string' is not defined
+hold_up_beyonce: name 'string' is not defined
+unstoppable_god_elevation: name 'string' is not defined
+wat_u_mean_dae_dae: name 'string' is not defined
+in_the_name_of_love_garrix: name 'string' is not defined
+all_the_poor_and_powerless_daughters: name 'string' is not defined
+key_to_the_streets_lucci: name 'string' is not defined
+starving_steinfeld: name 'string' is not defined
+no_problem_rapper: name 'string' is not defined
+broccoli_dram: name 'string' is not defined
+a_little_more_summertime_aldean: name 'string' is not defined
+all_we_know_chainsmokers: name 'string' is not defined
+everlasting_god_brewster: name 'string' is not defined
+this_is_what_you_came_for_harris: name 'string' is not defined
+my_happiness_francis: name 'string' is not defined
+say_you_won't_let_go_arthur: name 'string' is not defined
+luv_lanez: name 'string' is not defined
+happy_birthday_sweet_sixteen_sedaka: name 'string' is not defined
+scars_to_your_beautiful_cara: name 'string' is not defined
+side_to_side_grande: name 'string' is not defined
+holy_spirit_battistelli: name 'string' is not defined
+what_they_want_russ: name 'string' is not defined
+indescribable_tomlin: name 'string' is not defined
+cornerstone_hillsong: name 'string' is not defined
+x_boomin: name 'string' is not defined
+money_longer_vert: name 'string' is not defined
+in_christ_alone_grant: name 'string' is not defined
+i_hate_u_i_love_u_gnash: name 'string' is not defined
+before_the_throne_of_god_above_shane: name 'string' is not defined
+crzy_kehlani: name 'string' is not defined
+oceans_hillsong: name 'string' is not defined
+glory_to_god_forever_fee: name 'string' is not defined
+it_doesn't_hurt_like_it_used_to_currington: name 'string' is not defined
+all_because_of_jesus_crowns: name 'string' is not defined
+sha-la-la_green: name 'string' is not defined
+green_light_pitbull: name 'string' is not defined
+forever_tomlin: name 'string' is not defined
+ain't_my_fault_larsson: name 'string' is not defined
+wanna_be_that_song_eldredge: name 'string' is not defined
+always_stanfill: name 'string' is not defined
+jesus_loves_me_tomlin: name 'string' is not defined
+song_for_another_time_old_dominion: name 'string' is not defined
+beautiful_one_camp: name 'string' is not defined
+closer_chainsmokers: name 'string' is not defined
+mercy_mendes: name 'string' is not defined
+breathe_barnett: name 'string' is not defined
+break_every_chain_cobbs: name 'string' is not defined
+say_it_flume: name 'string' is not defined
+our_god_tomlin: name 'string' is not defined
+we_fall_down_tomlin: name 'string' is not defined
+stronger_hillsong: name 'string' is not defined
+your_love_never_fails_culture: name 'string' is not defined
+i_will_follow_tomlin: name 'string' is not defined
+build_your_kingdom_here_collective: name 'string' is not defined
+lockjaw_montana: name 'string' is not defined
+victory_in_jesus_cottrell: name 'string' is not defined
+move_bryan: name 'string' is not defined
+why_you_always_hatin_yg: name 'string' is not defined
+we_believe_newsboys: name 'string' is not defined
+how_he_loves_crowder: name 'string' is not defined
+treat_you_better_mendes: name 'string' is not defined
+overcome_camp: name 'string' is not defined
+your_name_dean: name 'string' is not defined
+god_of_wonders_tomlin: name 'string' is not defined
+good_good_father_tomlin: name 'string' is not defined
+god_is_able_hillsong: name 'string' is not defined
+lay_me_down_tomlin: name 'string' is not defined
+trading_my_sorrows_evans: name 'string' is not defined
+chill_bill_stone: name 'string' is not defined
+this_town_horan: name 'string' is not defined
+ride_pilots: name 'string' is not defined
+if_you_wanna_be_happy_soul: name 'string' is not defined
+all_eyez_the_game: name 'string' is not defined
+we_dont_talk_anymore_puth: name 'string' is not defined
+come_and_see_me_partynextdoor: name 'string' is not defined
+love_can_make_you_happy_mercy: name 'string' is not defined
+24k_magic_mars: name 'string' is not defined
+vice_lambert: name 'string' is not defined
+so_happy_together_turtles: name 'string' is not defined
+come_now_is_the_time_to_worship_doerksen: name 'string' is not defined
+because_he_lives_gaither: name 'string' is not defined
+your_grace_is_enough_tomlin: name 'string' is not defined
+one_thing_remains_culture: name 'string' is not defined
+how_great_is_our_god_tomlin: name 'string' is not defined
+come_as_you_are_crowder: name 'string' is not defined
+one_dance_drake: name 'string' is not defined
+sneakin_drake: name 'string' is not defined
+happy_day_hughes: name 'string' is not defined
+cold_water_lazer: name 'string' is not defined
+sing_to_the_king_passion: name 'string' is not defined
+you_are_good_bethel: name 'string' is not defined
+jesus_paid_it_all_stanfill: name 'string' is not defined
+christ_is_enough_hillsong: name 'string' is not defined
+give_me_faith_elevation: name 'string' is not defined
+i_give_you_my_heart_hillsong: name 'string' is not defined
+needed_me_rihanna: name 'string' is not defined
+open_the_eyes_of_my_heart_smith: name 'string' is not defined
+set_a_fire_culture: name 'string' is not defined
+a_yo_gaga: name 'string' is not defined
+all_time_low_bellion: name 'string' is not defined
+hosanna_hillsong: name 'string' is not defined
+amazing_grace_tomlin: name 'string' is not defined
+setting_the_world_on_fire_chesney: name 'string' is not defined
+days_of_elijah_mcclurkin: name 'string' is not defined
+let_me_love_you_snake: name 'string' is not defined
+perfect_illusion_gaga: name 'string' is not defined
+middle_of_a_memory_swindell: name 'string' is not defined
+handclap_fitz_and_the_tantrums: name 'string' is not defined
+shout_to_the_lord_hillsong: name 'string' is not defined
+at_the_cross_tomlin: name 'string' is not defined
+ooouuu_ma: name 'string' is not defined
+timmy_turner_desiigner: name 'string' is not defined
+it_is_well_bethel: name 'string' is not defined
+revelation_song_kari jobe: name 'string' is not defined
+dont_let_me_down_chainsmokers: name 'string' is not defined
+goosebumps_scott: name 'string' is not defined
+the_greatest_sia: name 'string' is not defined
+you_are_my_king_tomlin: name 'string' is not defined
+the_happy_organ_cortez: name 'string' is not defined
+juju_on_the_beat_hilfigerrr: name 'string' is not defined
+here_for_you_redman: name 'string' is not defined
+today_is_the_day_brewster: name 'string' is not defined
+no_limit_usher: name 'string' is not defined
+glorious_day_crowns: name 'string' is not defined
+ever_be_bethel: name 'string' is not defined
+cheap_thrills_sia: name 'string' is not defined
+how_great_thou_art_underwood: name 'string' is not defined
+no_longer_slaves_bethel: name 'string' is not defined
+dirty_laundry_underwood: name 'string' is not defined
+hymn_for_the_weekend_coldplay: name 'string' is not defined
+dont_worry_be_happy_mcferrin: name 'string' is not defined
+controlla_drake: name 'string' is not defined
+fresh_eyes_grammer: name 'string' is not defined
+cant_stop_the_feeling_timberlake: name 'string' is not defined
+lord_i_lift_your_name_on_high_mercyme: name 'string' is not defined
+heathens_pilots: name 'string' is not defined
+holy_is_the_lord_tomlin: name 'string' is not defined
+this_is_amazing_grace_wickham: name 'string' is not defined
+christ_is_risen_maher: name 'string' is not defined
+great_i_am_dean: name 'string' is not defined
+you_make_me_brave_bethel: name 'string' is not defined
+1night_lil_yachty: name 'string' is not defined
+jesus_messiah_tomlin: name 'string' is not defined
+open_up_the_heavens_andrews: name 'string' is not defined
+10,000_reasons_redman: name 'string' is not defined
+this_girl_kungs: name 'string' is not defined
+happy_days_mcclain: name 'string' is not defined
+the_stand_hillsong: name 'string' is not defined
+man_of_sorrows_hillsong: name 'string' is not defined
+fake_love_drake: name 'string' is not defined
+love_on_the_brain_rihanna: name 'string' is not defined
+you___me_bassy: name 'string' is not defined
+the_heart_of_worship_redman: name 'string' is not defined
+fade_west: name 'string' is not defined
+the_wonderful_cross_tomlin: name 'string' is not defined
+blue_aint_your_color_urban: name 'string' is not defined
+wishing_dj_drama: name 'string' is not defined
+great_are_you_lord_daughters: name 'string' is not defined
+you_never_let_go_redman: name 'string' is not defined
+sleep_without_you_young: name 'string' is not defined
+lord_i_need_you_maher: name 'string' is not defined
+how_i'll_always_be_mcgraw: name 'string' is not defined
+gold_kiarra: name 'string' is not defined
+may_we_all_line: name 'string' is not defined
+only_king_forever_worship: name 'string' is not defined
+you_made_me_so_very_happy_tears: name 'string' is not defined
+alive_hillsong: name 'string' is not defined
+you_was_right_vert: name 'string' is not defined
+this_i_believe_hillsong: name 'string' is not defined
+i_know_somebody_locash: name 'string' is not defined
+too_much_sauce_dj_esco: name 'string' is not defined
+how_deep_the_father’s_love_for_us_townend: name 'string' is not defined
+shout_out_to_my_ex_little_mix: name 'string' is not defined
+lead_me_to_the_cross_hillsong: name 'string' is not defined
+panda_desiigner: name 'string' is not defined
+great_is_thy_faithfulness_brewster: name 'string' is not defined
+capsize_frenship: name 'string' is not defined
+no_heart_21_savage: name 'string' is not defined
+send_my_love_adele: name 'string' is not defined
+caroline_amine: name 'string' is not defined
+starboy_punk: name 'string' is not defined
+i_love_you_lord_petra: name 'string' is not defined
+better_is_one_day_tomlin: name 'string' is not defined
+unsteady_ambassadors: name 'string' is not defined
+into_you_grande: name 'string' is not defined
+80's_mercedes_morris: name 'string' is not defined
+million_reasons_gaga: name 'string' is not defined
+do_you_mind_dj_khaled: name 'string' is not defined
+mighty_to_save_hillsong: name 'string' is not defined
+at_your_name_wickham: name 'string' is not defined
+dont_wanna_know_5: name 'string' is not defined
+pick_up_the_phone_young_thug_travis_scott: name 'string' is not defined
+whom_shall_i_fear_tomlin: name 'string' is not defined
+black_beatles_sremmurd: name 'string' is not defined
+your_great_name_grant: name 'string' is not defined

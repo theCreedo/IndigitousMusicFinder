@@ -1,0 +1,12 @@
+how_great_thou_art_underwood
+Joy
+93.0
+Anger 1.0
+Disgust 0.0
+Fear 3.0
+Joy 93.0
+Sadness 4.0
+and lead me home, what joy shall fill my heart!.
+then i shall bow with humble adoration,.
+Joy
+90.0

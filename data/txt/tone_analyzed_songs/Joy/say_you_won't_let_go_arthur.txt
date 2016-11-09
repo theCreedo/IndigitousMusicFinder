@@ -1,0 +1,11 @@
+say_you_won't_let_go_arthur
+Joy
+74.0
+Anger 5.0
+Disgust 0.0
+Fear 14.0
+Joy 74.0
+Sadness 7.0
+Darling, your love is more than worth its weight in gold.
+Joy
+84.0

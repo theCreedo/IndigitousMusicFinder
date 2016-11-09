@@ -1,0 +1,11 @@
+cornerstone_hillsong
+Fear
+37.0
+Anger 26.0
+Disgust 31.0
+Fear 37.0
+Joy 1.0
+Sadness 6.0
+when darkness seems to hide his face.
+Fear
+70.0

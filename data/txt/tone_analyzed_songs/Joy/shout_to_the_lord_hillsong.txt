@@ -1,0 +1,11 @@
+shout_to_the_lord_hillsong
+Joy
+95.0
+Anger 3.0
+Disgust 0.0
+Fear 1.0
+Joy 95.0
+Sadness 0.0
+i sing for joy at the work of your hand.
+Joy
+91.0

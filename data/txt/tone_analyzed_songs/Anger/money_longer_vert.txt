@@ -1,0 +1,12 @@
+money_longer_vert
+Anger
+67.0
+Anger 67.0
+Disgust 4.0
+Fear 0.0
+Joy 0.0
+Sadness 28.0
+Pull up my car automatic, dealt with a star.
+.
+Anger
+41.0

@@ -1,0 +1,11 @@
+glory_to_god_forever_fee
+Joy
+95.0
+Anger 1.0
+Disgust 0.0
+Fear 2.0
+Joy 95.0
+Sadness 1.0
+all for you and for your glory.
+Joy
+77.0

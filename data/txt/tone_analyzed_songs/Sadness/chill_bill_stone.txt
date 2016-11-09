@@ -1,0 +1,11 @@
+chill_bill_stone
+Sadness
+50.0
+Anger 39.0
+Disgust 10.0
+Fear 1.0
+Joy 0.0
+Sadness 50.0
+Used to sip out styrofoam but figured I should stick to dro (weed!).
+Sadness
+75.0

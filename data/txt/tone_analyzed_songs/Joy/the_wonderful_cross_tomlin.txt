@@ -1,0 +1,11 @@
+the_wonderful_cross_tomlin
+Joy
+91.0
+Anger 1.0
+Disgust 0.0
+Fear 2.0
+Joy 91.0
+Sadness 6.0
+love so amazing, so divine.
+Joy
+95.0

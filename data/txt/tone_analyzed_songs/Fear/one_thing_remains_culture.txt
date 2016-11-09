@@ -1,0 +1,11 @@
+one_thing_remains_culture
+Fear
+85.0
+Anger 2.0
+Disgust 0.0
+Fear 85.0
+Joy 5.0
+Sadness 9.0
+and i never ever have to be afraid.
+Fear
+90.0

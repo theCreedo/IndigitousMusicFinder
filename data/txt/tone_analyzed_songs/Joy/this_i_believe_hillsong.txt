@@ -1,0 +1,11 @@
+this_i_believe_hillsong
+Joy
+69.0
+Anger 2.0
+Disgust 0.0
+Fear 26.0
+Joy 69.0
+Sadness 3.0
+i believe in life eternal.
+Joy
+70.0

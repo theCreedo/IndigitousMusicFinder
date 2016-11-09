@@ -1,0 +1,11 @@
+at_the_cross_tomlin
+Joy
+47.0
+Anger 7.0
+Disgust 1.0
+Fear 30.0
+Joy 47.0
+Sadness 15.0
+where your love ran red.
+Joy
+79.0
