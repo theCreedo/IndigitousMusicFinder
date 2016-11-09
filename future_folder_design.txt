@@ -2,13 +2,30 @@
 ├── data
 │   ├── corrupted_files
 │   ├── images
+│   │   ├── anger
+│   │   ├── disgust
+│   │   ├── fear
+│   │   ├── joy
+│   │   └── sadness
 │   ├── json
+│   ├── topic_groupings
 │   └── txt
 │       ├── failure_log
 │       ├── original_song_lyrics
 │       ├── original_song_lyrics_with_periods
 │       ├── sorted_by_tone_value_songs
 │       ├── tone_analyzed_songs
+│       │   ├── All
+│       │   ├── Anger
+│       │   ├── Disgust
+│       │   ├── Fear
+│       │   ├── Joy
+│       │   └── Sadness
 │       └── topic_analyzed_songs
+│           └── songs_to_topics
+├── example output
 ├── scripts
 └── server
+    ├── __pycache__
+    ├── static
+    └── templates
