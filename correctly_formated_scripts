@@ -6,6 +6,6 @@
 ### data_visualization_plot.py
 ### max_mood_all.py
 ### max_mood_genre.py
-	removeperiods.py
+### refine_songs.py
 	sort_data_genre.py
 ### tone_analyzer.py
