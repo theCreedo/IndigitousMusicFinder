@@ -5,17 +5,17 @@ from watson_developer_cloud import ToneAnalyzerV3
 
 # Setup IBM Watson Tone Analyzer with your given USERNAME and PASSWORD
 # UNCOMMENT LINE BELOW ONCE YOU HAVE CREATED ACCOUNT WITH USERNAME/PASSWORD
-tone_analyzer = ToneAnalyzerV3(username='98a2f9b7-e29f-4cd8-a6a0-a53073de93ea', password='bTsfFVjXlVSr', version='2016-05-19')
+tone_analyzer = ToneAnalyzerV3(username='ENTER YOUR USERNAME', password='ENTER YOUR PASSWORD', version='2016-05-19')
 
 # Function in order to make calls to Watson. Makes 3 calls before ending if calls fail
 def tryWatson(data, outfile, numtries, filename):
     try:
         # Watson tone_analyzer API call
-        # UNCOMMENT LINE BELOW ONCE YOU HAVE CREATED ACCOUNT WITH USERNAME/PASSWORD
-        response = tone_analyzer.tone(text=data)
+    # UNCOMMENT LINE BELOW ONCE YOU HAVE CREATED ACCOUNT WITH USERNAME/PASSWORD
+        # response = tone_analyzer.tone(text=data)
         # Write to file in json if call is successful
-        # UNCOMMENT LINE BELOW ONCE YOU HAVE CREATED ACCOUNT WITH USERNAME/PASSWORD
-        outfile.write(json.dumps(response))
+    # UNCOMMENT LINE BELOW ONCE YOU HAVE CREATED ACCOUNT WITH USERNAME/PASSWORD
+        # outfile.write(json.dumps(response))
         print 'succeeded one request on ' + filename
     except Exception as errormsg:
         print 'Hit error in Watson ' + str(numtries) + ' times\n'
