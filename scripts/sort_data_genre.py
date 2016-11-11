@@ -1,4 +1,5 @@
 import os
+import time
 import json
 
 # Create dictionaries for all files
@@ -69,8 +70,8 @@ for fname in os.listdir(basepath + '/../data/txt/tone_analyzed_songs/All/'):
             except Exception as errormsg:
                 # Change Filenames based on basepath
                 failedfile = open('./../data/txt/failure_log/sort_data_genre_log.txt', 'a')
-                print filename + ': ' + str(errormsg)
-                failedfile.write(filename + ': ' + str(errormsg) + '\n')
+                print time.strftime("%c") + ' ' + filename + ': ' + str(errormsg)
+                failedfile.write(time.strftime("%c") + ' ' + filename + ': ' + str(errormsg) + '\n')
                 failedfile.close()
 #Populate anger_low_to_high.txt file with dictionary files sorted from low to high with list of percentage values
 # EDIT FILEPATH BASED ON BASEPATH

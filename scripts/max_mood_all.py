@@ -1,6 +1,7 @@
 import os
 import json
 import math
+import time
 
 # Dictionary of index mappings for moods
 moods = {'Anger':0, 'Disgust':1, 'Fear':2, 'Joy':3, 'Sadness':4}
@@ -62,8 +63,8 @@ for fname in os.listdir(basepath + '../data/json/'):
             except Exception as errormsg:
                 # Change Filenames based on basepath
                 failedfile = open('./../data/txt/failure_log/max_mood_all_log.txt', 'a')
-                print filename + ': ' + str(errormsg)
-                failedfile.write(filename + ': ' + str(errormsg) + '\n')
+                print time.strftime("%c") + ' ' + filename + ': ' + str(errormsg)
+                failedfile.write(time.strftime("%c") + ' ' + filename + ': ' + str(errormsg) + '\n')
                 failedfile.close()
             # Close outfile in the end
             finally:

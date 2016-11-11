@@ -1,4 +1,5 @@
 import os
+import time
 import string
 
 basepath = './'
@@ -30,8 +31,8 @@ for fname in os.listdir(basepath + '../data/txt/original_song_lyrics'):
             except Exception as errormsg:
                 # Change Filenames based on basepath
                 failedfile = open('./../data/txt/failure_log/addperiod_log.txt', 'a')
-                print filename + ': ' + str(errormsg)
-                failedfile.write(filename + ': ' + str(errormsg) + '\n')
+                print time.strftime("%c") + ' ' + filename + ': ' + str(errormsg)
+                failedfile.write(time.strftime("%c") + ' ' + filename + ': ' + str(errormsg) + '\n')
                 failedfile.close()
             finally:
                 outfile.close()

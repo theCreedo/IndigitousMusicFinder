@@ -83,6 +83,6 @@ for fname in os.listdir(basepath + '../data/txt/sorted_by_tone_value_songs/'):
 			except Exception as errormsg:
 				# Change Filenames based on basepath
 				failedfile = open('./../data/txt/failure_log/data_visualization_plot_log.txt', 'a')
-				print filename + ': ' + str(errormsg)
-				failedfile.write(filename + ': ' + str(errormsg) + '\n')
+				print time.strftime("%c") + ' ' + filename + ': ' + str(errormsg)
+				failedfile.write(time.strftime("%c") + ' ' + filename + ': ' + str(errormsg) + '\n')
 				failedfile.close()

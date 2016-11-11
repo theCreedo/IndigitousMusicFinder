@@ -1,6 +1,7 @@
 import os
 import codecs
 import json
+import time
 from watson_developer_cloud import ToneAnalyzerV3
 
 # Setup IBM Watson Tone Analyzer with your given USERNAME and PASSWORD
