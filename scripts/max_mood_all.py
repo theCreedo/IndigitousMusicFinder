@@ -66,6 +66,7 @@ for fname in os.listdir(basepath + '../data/json/'):
                 print time.strftime("%c") + ' ' + filename + ': ' + str(errormsg)
                 failedfile.write(time.strftime("%c") + ' ' + filename + ': ' + str(errormsg) + '\n')
                 failedfile.close()
+                os.remove('./../data/txt/tone_analyzed_songs/All/' + filename + '.txt')
             # Close outfile in the end
             finally:
                 outfile.close()

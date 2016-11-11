@@ -34,5 +34,6 @@ for fname in os.listdir(basepath + '../data/txt/original_song_lyrics'):
                 print time.strftime("%c") + ' ' + filename + ': ' + str(errormsg)
                 failedfile.write(time.strftime("%c") + ' ' + filename + ': ' + str(errormsg) + '\n')
                 failedfile.close()
+                os.remove('./../data/txt/original_song_lyrics_with_periods/' + filename + '.txt')
             finally:
                 outfile.close()

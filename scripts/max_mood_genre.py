@@ -65,9 +65,15 @@ for fname in os.listdir(basepath + '../data/json/'):
             except Exception as errormsg:
                 # Change Filenames based on basepath
                 failedfile = open('./../data/txt/failure_log/max_mood_genre_log.txt', 'a')
-                print  time.strftime("%c") + ' ' + filename + ': ' + str(errormsg)
-                failedfile.write(time.strftime("%c") + ' ' + filename + ': ' + str(errormsg) + '\n')
-                failedfile.close()
+                try:
+                    entire_tone_word
+                    print  time.strftime("%c") + ' ' + filename + ': ' + str(errormsg)
+                    failedfile.write(time.strftime("%c") + ' ' + filename + ': ' + str(errormsg) + '\n')
+                    os.remove('./../data/txt/tone_analyzed_songs/' + entire_tone_word + '/' + filename + '.txt')
+                except Exception:
+                    print 'hasn\'t been defined'
+                finally:
+                    failedfile.close()
             # Close outfile in the end
             finally:
                 outfile.close()

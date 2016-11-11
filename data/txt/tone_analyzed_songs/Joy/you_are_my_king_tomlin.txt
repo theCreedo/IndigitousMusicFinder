@@ -1,8 +1,0 @@
-you_are_my_king_tomlin
-Joy
-96.0
-Anger 1.0
-Disgust 0.0
-Fear 0.0
-Joy 96.0
-Sadness 3.0
