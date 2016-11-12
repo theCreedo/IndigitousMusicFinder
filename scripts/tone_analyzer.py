@@ -6,17 +6,17 @@ from watson_developer_cloud import ToneAnalyzerV3
 
 # Setup IBM Watson Tone Analyzer with your given USERNAME and PASSWORD
 # UNCOMMENT LINE BELOW ONCE YOU HAVE CREATED ACCOUNT WITH USERNAME/PASSWORD
-tone_analyzer = ToneAnalyzerV3(username='a7fcfa83-4aad-45ba-80fd-6ec64fbb5433', password='6VBlclaFgSN2', version='2016-05-19')
+# tone_analyzer = ToneAnalyzerV3(username='INSERT USERNAME HERE', password='INSERT PASSWORD HERE', version='2016-05-19')
 
 # Function in order to make calls to Watson. Makes 3 calls before ending if calls fail
 def tryWatson(data, outfile, numtries, filename):
     try:
         # Watson tone_analyzer API call
     # UNCOMMENT LINE BELOW ONCE YOU HAVE CREATED ACCOUNT WITH USERNAME/PASSWORD
-        response = tone_analyzer.tone(text=data)
+        # response = tone_analyzer.tone(text=data)
         # Write to file in json if call is successful
     # UNCOMMENT LINE BELOW ONCE YOU HAVE CREATED ACCOUNT WITH USERNAME/PASSWORD
-        outfile.write(json.dumps(response))
+        # outfile.write(json.dumps(response))
         print 'succeeded one request on ' + filename
     except Exception as errormsg:
         print 'Hit error in Watson ' + str(numtries) + ' times\n'
@@ -51,7 +51,7 @@ for fname in os.listdir(basepath + '../data/txt/original_song_lyrics_with_period
                 with codecs.open('./../data/txt/original_song_lyrics_with_periods/' + filename + '.' + ext, 'r', encoding='utf8') as fin:
                     data = fin.read()
                 # Call the Watson method for api calls
-                tryWatson(data, outfile, 0, filename)
+                # tryWatson(data, outfile, 0, filename)
             except Exception as errormsg:
                 failedfile = open('./../data/txt/failure_log/tone_analyzer_log.txt', 'a')
                 print time.strftime("%c") + ' ' + filename + ': ' + str(errormsg)

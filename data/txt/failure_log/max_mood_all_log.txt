@@ -12,3 +12,5 @@ Fri Nov 11 01:44:20 2016 you_are_my_king_tomlin: 'ascii' codec can't encode char
 Fri Nov 11 01:44:21 2016 how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe2 in position 19: ordinal not in range(128)
 Fri Nov 11 01:45:21 2016 you_are_my_king_tomlin: 'ascii' codec can't encode character u'\u2019' in position 2: ordinal not in range(128)
 Fri Nov 11 01:45:22 2016 how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe2 in position 19: ordinal not in range(128)
+Fri Nov 11 21:05:13 2016 you_are_my_king_tomlin: 'ascii' codec can't encode character u'\u2019' in position 2: ordinal not in range(128)
+Fri Nov 11 21:05:13 2016 how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe2 in position 19: ordinal not in range(128)

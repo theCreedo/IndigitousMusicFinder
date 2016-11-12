@@ -28,8 +28,6 @@ love_can_make_you_happy_mercy
 [[0.0], [1.0], [0.0], [98.0], [0.0]]
 god_is_able_hillsong
 [[0.0], [4.0], [52.0], [44.0], [1.0]]
-you_are_my_king_tomlin
-[[1.0], [0.0], [0.0], [96.0], [3.0]]
 you_made_me_so_very_happy_tears
 [[1.0], [0.0], [0.0], [98.0], [1.0]]
 how_he_loves_crowder
