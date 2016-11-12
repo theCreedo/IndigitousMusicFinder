@@ -1,0 +1,10 @@
+Fri Nov 11 21:17:25 2016 all_eyez_the_game: 'utf-8' codec can't decode byte 0xf1 in position 0: invalid continuation byte
+Fri Nov 11 21:17:26 2016 capsize_frenship: 'utf-8' codec can't decode byte 0x92 in position 0: invalid start byte
+Fri Nov 11 21:17:27 2016 do_you_mind_dj_khaled: 'utf-8' codec can't decode byte 0xe9 in position 22: invalid continuation byte
+Fri Nov 11 21:17:27 2016 goosebumps_scott: 'utf-8' codec can't decode byte 0x92 in position 0: invalid start byte
+Fri Nov 11 21:17:28 2016 how_i'll_always_be_mcgraw: 'utf-8' codec can't decode byte 0x92 in position 0: invalid start byte
+Fri Nov 11 21:17:28 2016 i_know_somebody_locash: 'utf-8' codec can't decode byte 0x91 in position 3: invalid start byte
+Fri Nov 11 21:17:29 2016 key_to_the_streets_lucci: 'utf-8' codec can't decode byte 0x91 in position 0: invalid start byte
+Fri Nov 11 21:17:29 2016 no_limit_usher: 'utf-8' codec can't decode byte 0x92 in position 5: invalid start byte
+Fri Nov 11 21:17:31 2016 this_town_horan: 'utf-8' codec can't decode byte 0x97 in position 0: invalid start byte
+Fri Nov 11 21:17:31 2016 wat_u_mean_dae_dae: 'utf-8' codec can't decode byte 0xf1 in position 0: invalid continuation byte

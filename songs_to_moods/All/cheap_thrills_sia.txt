@@ -1,11 +1,0 @@
-cheap_thrills_sia
-Joy
-89.0
-Anger 2.0
-Disgust 0.0
-Fear 0.0
-Joy 89.0
-Sadness 9.0
-(I love cheap thrills!).
-Joy
-73.0

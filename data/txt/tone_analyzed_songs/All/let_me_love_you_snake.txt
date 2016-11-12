@@ -1,0 +1,11 @@
+let_me_love_you_snake
+Joy
+78.0
+Anger 6.0
+Disgust 0.0
+Fear 10.0
+Joy 78.0
+Sadness 5.0
+Know we're good enough.
+Joy
+72.0

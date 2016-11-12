@@ -1,11 +1,0 @@
-mercy_mendes
-Sadness
-77.0
-Anger 12.0
-Disgust 1.0
-Fear 8.0
-Joy 1.0
-Sadness 77.0
-I can't take anymore.
-Sadness
-88.0

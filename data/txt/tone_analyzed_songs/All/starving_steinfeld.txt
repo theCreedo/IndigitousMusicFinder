@@ -1,0 +1,11 @@
+starving_steinfeld
+Fear
+42.0
+Anger 42.0
+Disgust 4.0
+Fear 42.0
+Joy 8.0
+Sadness 4.0
+Shit that scares me.
+Fear
+85.0

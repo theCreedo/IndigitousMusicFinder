@@ -1,0 +1,11 @@
+ride_pilots
+Anger
+66.0
+Anger 66.0
+Disgust 1.0
+Fear 8.0
+Joy 2.0
+Sadness 23.0
+Taking my time on my ride.
+Anger
+45.0

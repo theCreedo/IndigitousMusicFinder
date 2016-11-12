@@ -1,11 +1,0 @@
-crzy_kehlani
-Fear
-49.0
-Anger 38.0
-Disgust 2.0
-Fear 49.0
-Joy 0.0
-Sadness 11.0
-But I overcome so you overcame.
-Fear
-80.0

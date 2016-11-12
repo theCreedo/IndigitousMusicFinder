@@ -1,0 +1,11 @@
+fake_love_drake
+Anger
+53.0
+Anger 53.0
+Disgust 2.0
+Fear 1.0
+Joy 27.0
+Sadness 18.0
+I came up, you changed up, I caught that whole play.
+Anger
+26.0

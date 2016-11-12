@@ -1,0 +1,11 @@
+panda_desiigner
+Anger
+75.0
+Anger 75.0
+Disgust 11.0
+Fear 4.0
+Joy 0.0
+Sadness 11.0
+We gon' drill the bank, fuck we gon' kill the bank, get it.
+Anger
+60.0

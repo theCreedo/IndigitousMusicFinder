@@ -1,0 +1,19 @@
+you_are_my_king_tomlin: 'ascii' codec can't encode character u'\u2019' in position 2: ordinal not in range(128)
+how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe2 in position 19: ordinal not in range(128)
+you_are_my_king_tomlin: 'ascii' codec can't encode character u'\u2019' in position 2: ordinal not in range(128)
+how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe2 in position 19: ordinal not in range(128)
+Fri Nov 11 01:07:01 2016 you_are_my_king_tomlin: 'ascii' codec can't encode character u'\u2019' in position 2: ordinal not in range(128)
+Fri Nov 11 01:07:02 2016 hold_up_beyonce: No JSON object could be decoded
+Fri Nov 11 01:07:02 2016 how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe2 in position 19: ordinal not in range(128)
+Fri Nov 11 01:12:44 2016 you_are_my_king_tomlin: 'ascii' codec can't encode character u'\u2019' in position 2: ordinal not in range(128)
+Fri Nov 11 01:12:44 2016 hold_up_beyonce: No JSON object could be decoded
+Fri Nov 11 01:12:47 2016 you_are_my_king_tomlin: 'ascii' codec can't encode character u'\u2019' in position 2: ordinal not in range(128)
+Fri Nov 11 01:12:47 2016 hold_up_beyonce: No JSON object could be decoded
+Fri Nov 11 01:46:29 2016 you_are_my_king_tomlin: 'ascii' codec can't encode character u'\u2019' in position 2: ordinal not in range(128)
+Fri Nov 11 01:46:29 2016 how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe2 in position 19: ordinal not in range(128)
+Fri Nov 11 01:55:07 2016 you_are_my_king_tomlin: 'ascii' codec can't encode character u'\u2019' in position 2: ordinal not in range(128)
+Fri Nov 11 01:55:07 2016 how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe2 in position 19: ordinal not in range(128)
+Fri Nov 11 01:55:44 2016 you_are_my_king_tomlin: 'ascii' codec can't encode character u'\u2019' in position 2: ordinal not in range(128)
+Fri Nov 11 01:55:45 2016 how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe2 in position 19: ordinal not in range(128)
+Fri Nov 11 02:08:50 2016 you_are_my_king_tomlin: 'ascii' codec can't encode character u'\u2019' in position 2: ordinal not in range(128)
+Fri Nov 11 02:08:50 2016 how_deep_the_father’s_love_for_us_townend: 'ascii' codec can't decode byte 0xe2 in position 19: ordinal not in range(128)

@@ -1,0 +1,11 @@
+controlla_drake
+Anger
+66.0
+Anger 66.0
+Disgust 1.0
+Fear 2.0
+Joy 0.0
+Sadness 30.0
+When I get, aggressive, tell you to.
+Anger
+58.0

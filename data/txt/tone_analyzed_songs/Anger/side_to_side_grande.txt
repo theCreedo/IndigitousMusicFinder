@@ -1,0 +1,11 @@
+side_to_side_grande
+Anger
+60.0
+Anger 60.0
+Disgust 22.0
+Fear 4.0
+Joy 0.0
+Sadness 13.0
+Cause tonight I'm making deals with the devil.
+Anger
+49.0

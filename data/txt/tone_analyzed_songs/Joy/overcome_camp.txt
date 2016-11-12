@@ -1,0 +1,11 @@
+overcome_camp
+Joy
+46.0
+Anger 5.0
+Disgust 3.0
+Fear 44.0
+Joy 46.0
+Sadness 2.0
+savior, worthy of honor and glory.
+Joy
+72.0

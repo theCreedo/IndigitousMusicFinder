@@ -1,0 +1,11 @@
+needed_me_rihanna
+Anger
+74.0
+Anger 74.0
+Disgust 10.0
+Fear 0.0
+Joy 0.0
+Sadness 16.0
+Never told you, you could have it.
+Anger
+54.0

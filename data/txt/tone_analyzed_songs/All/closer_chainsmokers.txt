@@ -1,0 +1,11 @@
+closer_chainsmokers
+Anger
+48.0
+Anger 48.0
+Disgust 1.0
+Fear 16.0
+Joy 4.0
+Sadness 31.0
+And I, I, I, I, I can't stop.
+Anger
+33.0
