@@ -32,7 +32,7 @@ Moodify Project Desc - https://indigitous.org/projects/upliftify/
 
 2. First, either create a script or manually put all songs into the `/data/txt/original_song_lyrics/` folder with the song name or artist. (We made sure the filename contained name of song and artist). For our files, we made it so that later it would remove the 
 	
-	NOTE: Make sure that songs are stored stanza by stanza, with each stanza separated by an empty line. Be wary of Windows's lack of normalization on encoding format; if possible, store new songs as text files of utf-8, for IBM Watson's sake.
+	NOTE: Make sure that songs are stored stanza by stanza, with each stanza separated by an empty line. Be wary of Windows's lack of normalization on encoding format; if possible, store new songs as text files of `utf-8`, for IBM Watson's sake.
 
 	NOTE: All files should be formatted with song name on first line and artist name on second line. Then lyrics after that, line by line.
 
@@ -83,7 +83,7 @@ Moodify Project Desc - https://indigitous.org/projects/upliftify/
 
 14. Change the `TRAIN_VOCAB` flag to 0 so that users of the `topic_analyzer.py` module (such as `cluster_songs_by_mood.py`) will not cause the vocabulary to rebuild (takes a lot of time), but load from the pickle instead.
 
-15. Use cluster_songs_by_mood.py's two functions to recognize topics from songs and pickle this data, or to cluster songs by their top-ranked topic and print them.
+15. Use `cluster_songs_by_mood.py's` two functions to recognize topics from songs and pickle this data, or to cluster songs by their top-ranked topic and print them.
 
 # Directory Hiearchy
 
