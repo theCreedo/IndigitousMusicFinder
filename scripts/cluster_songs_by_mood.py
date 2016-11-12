@@ -1,4 +1,4 @@
-import analyzetopic as anato
+import topic_analyzer as anato
 from gensim import corpora, models, similarities
 import os
 import pickle
@@ -14,7 +14,7 @@ gdict = anato.getgdict()
 def pickleTopicsForMood(mood):
 	songs_to_topics = {}
 	for fname in os.listdir('./../data/txt/tone_analyzed_songs/' + mood):
-		path = './../data/txt/original_song_lyrics_with_periods/' + fname
+		path = './../data/txt/refined_song_lyrics/' + fname
 		# topics = anato.getStanzaTopics(gdict, path)
 		topics = anato.getSongTopics(gdict, path)
 		topics = [x for sublist in topics for x in sublist] # flatten list of lists

@@ -3,9 +3,10 @@ import gensim
 import os
 import codecs
 import string
+import time
 from nltk.corpus import wordnet as wn
 
-TRAIN_VOCAB = 0
+TRAIN_VOCAB = 1
 
 ## Build the initial Gensim dictionary and store it
 
@@ -57,11 +58,19 @@ def generate_song_lines():
 	        # Execute if .txt file
 	        if ext == 'txt':
 	            # Create out .json files to write to
-	            with codecs.open('./../data/txt/original_song_lyrics_with_periods/' + path, 'r', encoding='utf8') as fin:
-	                for line in fin:
-	                	cleaned = clean_text(line[:-1])
-	                	if cleaned:
-	                		songs_lines.append(cleaned)
+	            try:
+	            	with codecs.open('./../data/txt/original_song_lyrics_with_periods/' + path, 'r', encoding='utf8') as fin:
+		                for line in fin:
+		                	cleaned = clean_text(line[:-1])
+		                	if cleaned:
+		                		songs_lines.append(cleaned)
+	            except Exception as errormsg:
+	                failedfile = open('./../data/txt/failure_log/topic_analyzer_log.txt', 'a')
+	                print(time.strftime("%c") + ' ' + filename + ': ' + str(errormsg))
+	                failedfile.write(time.strftime("%c") + ' ' + filename + ': ' + str(errormsg) + '\n')
+	                failedfile.close()
+	                os.remove('./../data/txt/original_song_lyrics_with_periods/' + path)
+
 	return songs_lines
 
 # line: an array of words
