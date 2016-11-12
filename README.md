@@ -42,21 +42,21 @@ Moodify Project Desc - https://indigitous.org/projects/upliftify/
 
 4. Go to '/data/txt/original_song_lyrics_with_periods/' and execute command 'file -i *'. Remove anything that is 'iso-8859-1' or 'unknown8bit', or move them to '/corrupted_files/'. This will prevent IBM Watson from issuing an error over calls of invalid bytes
 
-5. Set up an IBM Watson account.
+5. Set up an IBM Watson Bluemix account.
 
 6. Create an app for IBM Watson Tone Analyzer.
 
-7. Get username and password
+7. Get username and password for Tone Analyzer app
 
 8. Insert into 'tone_analyzer.py' your username and password and uncomment lines associated with IBM Watson API calls
 
-9. Run 'tone_analyzer.py' to put json files from API calls to IBM Watson into '/json/' folder (Will take about 5+ seconds per API call, so make sure you have a hobby before you run a lot of files)
+9. Run 'tone_analyzer.py' to put json files from API calls to IBM Watson into '/data/json/' folder (Will take about 5+ seconds per API call, so make sure you have a hobby before you run a lot of files)
 
-10. Run 'max_mood_genre.py' to populate folders of tones ('/Anger/', '/Joy/', '/Sadness/', '/Fear/', and '/Disgust/') with all files that's max pertains to that genre.
+10. Run 'max_mood_genre.py' to populate folders of tones ('/data/txt/tone_analyzed_songs/Anger/', '/.../Joy/', '/.../Sadness/', '/.../Fear/', and '/.../Disgust/') with all files that's max pertains to that genre.
 
-11. Run 'max_mood_all.py' to populate '/All/' folder with all files
+11. Run 'max_mood_all.py' to populate '/data/txt/tone_analyzed_songs/All/' folder with all files
 
-	NOTE: Data in '/All/', '/Anger/', '/Joy/', '/Sadness/', '/Fear/', and '/Disgust/' consists of:
+	NOTE: Data in '/data/txt/tone_analyzed_songs/All/', '/.../Anger/', '/.../Joy/', '/.../Sadness/', '/.../Fear/', and '/.../Disgust/' consists of:
 	
 	filename
 	
@@ -72,22 +72,21 @@ Moodify Project Desc - https://indigitous.org/projects/upliftify/
 	
 	sentence max tone value
 
-12. Run 'sort_data_genre.py' to sort all data so that they are ordered in '/Sorted_Tones/' by the tone value from low to high.
+12. Run 'sort_data_genre.py' to sort all data so that they are ordered in '/data/txt/sorted_by_tone_value_songs/' by the tone value from low to high.
 
-	NOTE: Data in '/Sorted_Tones/' + TONE + '_low_to_high.txt' consists of a repeat of data sorted from low to high as:
+	NOTE: Data in '/.../sorted_by_tone_value_songs/' + TONE + '_low_to_high.txt' consists of a repeat of data sorted from low to high as:
 
 	filename
 
 	sorted tone value
 
-	NOTE: Any errors discovered in working with files will be recorded in '/corrupted_files/failures/' folder associated with the given python file. There may be repeats since errors are appended to the file. Errors will be saved in this format: 'filename.txt: ERRORMSG'
+	NOTE: Any errors discovered in working with files will be recorded in '/data/txt/failure_log/' folder associated with the given python file. There may be repeats since errors are appended to the file. Errors will be saved in this format: 'data - time : filename.txt: ERRORMSG'
 
-13. Run analyzetopic.py to build and pickle a Gensim vocabulary for all the songs in the dataset.
+13. Run topic_analyzer.py to build and pickle a Gensim vocabulary for all the songs in the dataset.
 
-14. Change the TRAIN_VOCAB flag to 0 so that users of the analyzetopic module (such as cluster_songs_by_mood) will not cause the vocabulary to rebuild (takes a lot of time), but load from the pickle instead.
+14. Change the TRAIN_VOCAB flag to 0 so that users of the topic_analyzer.py module (such as cluster_songs_by_mood.py) will not cause the vocabulary to rebuild (takes a lot of time), but load from the pickle instead.
 
-15. Use cluster_songs_by_mood's two functions to recognize topics from songs and pickle this data, or to cluster songs by their top-ranked topic and print them.
-
+15. Use cluster_songs_by_mood.py's two functions to recognize topics from songs and pickle this data, or to cluster songs by their top-ranked topic and print them.
 
 # Directory Hiearchy
 	.
