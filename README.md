@@ -18,7 +18,7 @@ IBM Tone Analyzer - https://tone-analyzer-demo.mybluemix.net/
 
 2. First, either create a script or manually put all songs into the '/txt/' folder without the song name or artist. (We made the filename contain name of song and artist). 
 	
-	NOTE: Make sure that songs are stored stanza by stanza. Different computers (Mac, Windows, Linux, etc...) can encode the information differently based on how lyrics are stored
+	NOTE: Make sure that songs are stored stanza by stanza, with each stanza separated by an empty line. Be wary of Windows' lack of normalization on encoding format; if possible, store new songs as text files of utf-8, for IBM Watson's sake.
 
 3. Run `addperiod.py` in order to take all files from txt and translate them into files with periods at the end, adding them into '/txt_period/'
 
@@ -59,7 +59,7 @@ IBM Tone Analyzer - https://tone-analyzer-demo.mybluemix.net/
 	sorted tone value
 ```
 
-	NOTE: Any errors discovered in working with files will be recorded in `/corrupted_files/failures/` folder associated with the given python file. There may be repeats since errors are appended to the file. Errors will be saved in this format: 'filename.txt: ERRORMSG'
+	NOTE: Any errors discovered in working with files will be recorded in `/corrupted_files/failures/` folder associated with the given python file. There may be repeats since errors are appended to the file. Errors will be saved in this format: `filename.txt: ERRORMSG`
 
 13. Run `topic_analyzer.py` to build and pickle a Gensim vocabulary for all the songs in the dataset.
 
