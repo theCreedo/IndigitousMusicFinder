@@ -1,30 +1,46 @@
 # Moodify
-Take a song and put it through a given algorithm in order to get percentage breakdown of moods ex. Angry, Frustrated, Happy, Sad (Find amount of presence - MOodiness). Then possibly provide songs scheduled so that they would be played negative to positive progression.
+Take a song and put it through a given algorithm in order to get percentage breakdown of moods ex. Angry, Frustrated, Happy, Sad (Find amount of presence - Moodiness). Furthermore, take a set of those songs and assert through natural language processing in order to create topics for groups of songs. Finally provide the songs scheduled so that they would be shown from negative to positive progression.
 
 # Links
-Indigitous Hack Project Desc: https://indigitous.org/projects/?filter_challenge=musicfinder
+Moodify Presentation Video: https://www.youtube.com/watch?v=NDC10z1V3Fw&feature=youtu.be
 
 Moodify Project Desc - https://indigitous.org/projects/upliftify/
 
-IBM Tone Analyzer - https://tone-analyzer-demo.mybluemix.net/
+# Additional Enhancements/Features
+- Find a dataset consisting of song lyric words - Expand on list of songs for analyzing
 
-# Additional Features
+- Choose a better collection of songs (one genre, instead of the top 100 on the US charts, and top Christian songs)
+
+- Have a censor mapping on songs to prevent coarse language from being very explicitly shown
+
+- Get a data set of all artists who state in their bio their Christian or have factors associated to it
+
+- Find a way to train the pipeline on “music by Christians”
+
+- Store intermediate stages of metadata/processed data for each song to a database rather than in folders
+
 - Add this tool onto a mobile/web platform for others to use
 
-- Have songs recommended/scheduled to play either on Spotify, Pandora, etc...
+- Suggest a “playlist” based on the user’s situation or need
+
+- Play recommended/scheduled songs on a platform
+
+- Tweak some parameters in topic analysis to produce better topics
 
 # Steps to use this code repo
 1. Fork/Clone repo
 
-2. First, either create a script or manually put all songs into the '/txt/' folder without the song name or artist. (We made the filename contain name of song and artist). 
+2. First, either create a script or manually put all songs into the '/data/txt/original_song_lyrics/' folder with the song name or artist. (We made sure the filename contained name of song and artist). For our files, we made it so that later it would remove the 
 	
-	NOTE: Make sure that songs are stored stanza by stanza. Different computers (Mac, Windows, Linuz, etc...) can encode the information differently based on how lyrics are stored
+	NOTE: Make sure that songs are stored stanza by stanza. Different computers (Mac, Windows, Linuz, etc...) can encode the information differently based on how lyrics are stored.
 
-3. Run 'addperiod.py' in order to take all files from txt and translate them into files with periods at the end, adding them into '/txt_period/'
+	NOTE: All files should be formatted with song name on first line and artist name on second line. Then lyrics after that, line by line.
+
+3. Run 'addperiod.py' in order to take all files from txt and translate them into files with periods at the end, adding them into '/data/txt/original_song_lyrics_with_periods/'
 
 	NOTE: IBM Watson Tone Analyzer analyzes based on sentences with periods, so make sure the songs aren't greater than 1000 lines (max of 1000 sentences)
 
-4. Go to '/txt_period/' and execute command 'file -i *'. Remove anything that is 'iso-8859-1' or 'unknown8bit', or move them to '/corrupted_files/'. This will prevent IBM Watson from issuing an error over calls of invalid bytes
+4. Go to '/data/txt/original_song_lyrics_with_periods/' and execute command 'file -i *'. Remove anything that is 'iso-8859-1' or 'unknown8bit', or move them to '/corrupted_files/'. This will prevent IBM Watson from issuing an error over calls of invalid bytes
 
 5. Set up an IBM Watson account.
 
@@ -36,9 +52,9 @@ IBM Tone Analyzer - https://tone-analyzer-demo.mybluemix.net/
 
 9. Run 'tone_analyzer.py' to put json files from API calls to IBM Watson into '/json/' folder (Will take about 5+ seconds per API call, so make sure you have a hobby before you run a lot of files)
 
-10. Run 'max_mood_genre.py' in '/songs_to_moods/' folder to populate folders of tones ('/Anger/', '/Joy/', '/Sadness/', '/Fear/', and '/Disgust/') with all files that's max pertains to that genre.
+10. Run 'max_mood_genre.py' to populate folders of tones ('/Anger/', '/Joy/', '/Sadness/', '/Fear/', and '/Disgust/') with all files that's max pertains to that genre.
 
-11. Run 'max_mood_all.py' in '/songs_to_moods/' folder to populate '/All/' folder with all files
+11. Run 'max_mood_all.py' to populate '/All/' folder with all files
 
 	NOTE: Data in '/All/', '/Anger/', '/Joy/', '/Sadness/', '/Fear/', and '/Disgust/' consists of:
 	
