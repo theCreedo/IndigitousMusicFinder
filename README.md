@@ -32,7 +32,7 @@ Moodify Project Desc - https://indigitous.org/projects/upliftify/
 
 2. First, either create a script or manually put all songs into the '/data/txt/original_song_lyrics/' folder with the song name or artist. (We made sure the filename contained name of song and artist). For our files, we made it so that later it would remove the 
 	
-	NOTE: Make sure that songs are stored stanza by stanza. Different computers (Mac, Windows, Linuz, etc...) can encode the information differently based on how lyrics are stored.
+	NOTE: Make sure that songs are stored stanza by stanza, with each stanza separated by an empty line. Be wary of Windows' lack of normalization on encoding format; if possible, store new songs as text files of utf-8, for IBM Watson's sake.
 
 	NOTE: All files should be formatted with song name on first line and artist name on second line. Then lyrics after that, line by line.
 
@@ -48,7 +48,7 @@ Moodify Project Desc - https://indigitous.org/projects/upliftify/
 
 7. Get username and password for Tone Analyzer app
 
-8. Insert into 'tone_analyzer.py' your username and password and uncomment lines associated with IBM Watson API calls
+8. Insert into `tone_analyzer.py` your username and password and uncomment lines associated with IBM Watson API calls
 
 9. Run 'tone_analyzer.py' to put json files from API calls to IBM Watson into '/data/json/' folder (Will take about 5+ seconds per API call, so make sure you have a hobby before you run a lot of files)
 
@@ -58,38 +58,36 @@ Moodify Project Desc - https://indigitous.org/projects/upliftify/
 
 	NOTE: Data in '/data/txt/tone_analyzed_songs/All/', '/.../Anger/', '/.../Joy/', '/.../Sadness/', '/.../Fear/', and '/.../Disgust/' consists of:
 	
+```
 	filename
-	
 	whole max tone
-	
 	whole max tone value
-	
 	percentages of all tones with values for song, max sentence (5 total)
-	
 	max sentence
-	
 	sentence max tone
-	
 	sentence max tone value
+```
 
 12. Run 'sort_data_genre.py' to sort all data so that they are ordered in '/data/txt/sorted_by_tone_value_songs/' by the tone value from low to high.
 
-	NOTE: Data in '/.../sorted_by_tone_value_songs/' + TONE + '_low_to_high.txt' consists of a repeat of data sorted from low to high as:
-
+	NOTE: Data in '/.../sorted_by_tone_value_songs/' + TONE + '_low_to_high.txt' consists of a repeat of data sorted from 
+```
 	filename
-
 	sorted tone value
+```
 
 	NOTE: Any errors discovered in working with files will be recorded in '/data/txt/failure_log/' folder associated with the given python file. There may be repeats since errors are appended to the file. Errors will be saved in this format: 'data - time : filename.txt: ERRORMSG'
 
-13. Run topic_analyzer.py to build and pickle a Gensim vocabulary for all the songs in the dataset.
+13. Run `topic_analyzer.py` to build and pickle a Gensim vocabulary for all the songs in the dataset.
 
-14. Change the TRAIN_VOCAB flag to 0 so that users of the topic_analyzer.py module (such as cluster_songs_by_mood.py) will not cause the vocabulary to rebuild (takes a lot of time), but load from the pickle instead.
+
+14. Change the `TRAIN_VOCAB` flag to 0 so that users of the topic_analyzer.py module (such as cluster_songs_by_mood.py) will not cause the vocabulary to rebuild (takes a lot of time), but load from the pickle instead.
 
 15. Use cluster_songs_by_mood.py's two functions to recognize topics from songs and pickle this data, or to cluster songs by their top-ranked topic and print them.
 
 # Directory Hiearchy
-	.
+
+```
 	├── data
 	│   ├── corrupted_files
 	│   ├── images
@@ -120,4 +118,5 @@ Moodify Project Desc - https://indigitous.org/projects/upliftify/
 	    ├── __pycache__
 	    ├── static
 	    └── templates
+```
 
